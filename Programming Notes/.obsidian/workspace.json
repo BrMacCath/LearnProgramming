@@ -33,14 +33,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/test.md",
+                "file": "Class/Python.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "e79f0da87ebb297d",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__Python",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/test.md",
+                "file": "Class/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/test.md",
+                "file": "Class/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust/test.md"
+                "file": "Class/Python.md"
               }
             }
           }
@@ -170,12 +178,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fd7cc8cc12b4d9f1",
+  "active": "e79f0da87ebb297d",
   "lastOpenFiles": [
+    "Rust/Cargo(Rust).md",
+    "Class/Python.md",
+    "Templates/Programming_Template.md",
+    "Rust/test.md",
     "Script Ideas",
     "Class/Rust.md",
-    "Rust/test.md",
-    "Templates/Programming_Template.md",
     "Rust",
     "Background/Choices/ProgrammingChoices.md",
     "Background/Choices",

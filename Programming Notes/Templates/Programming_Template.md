@@ -15,9 +15,7 @@ tR += "Links: \n"
 tR += "---"
 -%>
 
-# Definition
-
-# Examples
+# Name
 
 
-<%tp.file.move(`${language}/${topic}`)%>
+<%tp.file.move(`${language}/${topic}(${language})`)%>
