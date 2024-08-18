@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "b609d12e6cc03f82",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a3a679e7a45e241",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6950f1028dd7ada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class/Rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "442cbc8335df7b7c",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__Rust",
+              "state": {}
+            }
+          },
+          {
+            "id": "524de1fa5fcfd5de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rust/test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ce4310b98cea8b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e803dd24ca62fef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd7cc8cc12b4d9f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "97ebe0fc4613c355",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f9bd67ce2d25a09",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "68eecc57d4202668",
+    "type": "split",
+    "children": [
+      {
+        "id": "3455e491983d5886",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a288ea16ccd79cfb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Rust/test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49fb7b541c026d1f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Rust/test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0715c3a122ed86bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "99f7cd527066a1d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Rust/test.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "soundscapes:Soundscapes: My Music": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "fd7cc8cc12b4d9f1",
+  "lastOpenFiles": [
+    "Script Ideas",
+    "Class/Rust.md",
+    "Rust/test.md",
+    "Templates/Programming_Template.md",
+    "Rust",
+    "Background/Choices/ProgrammingChoices.md",
+    "Background/Choices",
+    "Background",
+    "Welcome.md",
+    "Templates",
+    "Class"
+  ]
+}
