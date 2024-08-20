@@ -15,7 +15,15 @@ tR += "Links: \n"
 tR += "---"
 -%>
 
-# Name
+# Purpose
+
+
+# Links
+
+[[main(Rust)|main]]
+[[Macro(Rust)|Macro]]
+[[Ending Sentences(Rust)|Ending Sentences]]
+[[Style(Rust)|Style]]
 
 
 <%tp.file.move(`${language}/${topic}(${language})`)%>

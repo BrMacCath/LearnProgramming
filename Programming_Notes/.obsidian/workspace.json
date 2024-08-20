@@ -8,47 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6950f1028dd7ada",
+            "id": "40213ea3b6356e02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Rust.md",
+                "file": "Rust/Cargo(Rust).md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "442cbc8335df7b7c",
-            "type": "leaf",
-            "state": {
-              "type": "FileClassView__Rust",
-              "state": {}
-            }
-          },
-          {
-            "id": "524de1fa5fcfd5de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e79f0da87ebb297d",
-            "type": "leaf",
-            "state": {
-              "type": "FileClassView__Python",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class/Python.md",
+                "file": "Rust/Cargo(Rust).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Class/Python.md",
+                "file": "Rust/Cargo(Rust).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class/Python.md"
+                "file": "Rust/Cargo(Rust).md"
               }
             }
           }
@@ -178,11 +149,24 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e79f0da87ebb297d",
+  "active": "40213ea3b6356e02",
   "lastOpenFiles": [
+    "Rust/toml(Rust).md",
     "Rust/Cargo(Rust).md",
-    "Class/Python.md",
+    "Rust/Projects/hello_world/hello_world(Rust).md",
+    "Rust/Projects/hello_cargo/hello_cargo(Rust).md",
+    "Templates/Project_Template.md",
+    "Rust/Projects/hello_cargo",
+    "Rust/Projects/hello_cargo(Rust).md",
     "Templates/Programming_Template.md",
+    "Rust/Compling and Running(Rust).md",
+    "Rust/Ending Sentences(Rust).md",
+    "Rust/Macro(Rust).md",
+    "Rust/Style(Rust).md",
+    "Rust/main(Rust).md",
+    "Class/Python.md",
+    "Rust/Projects/hello_world",
+    "Rust/Projects",
     "Rust/test.md",
     "Script Ideas",
     "Class/Rust.md",
