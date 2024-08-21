@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "b609d12e6cc03f82",
+    "id": "cd5dff81e5d10a2f",
     "type": "split",
     "children": [
       {
-        "id": "0334d51c1af86ad8",
+        "id": "d178c082a8f38e48",
         "type": "tabs",
         "children": [
           {
-            "id": "c4fbf786a21a5d0f",
+            "id": "0e119e07b3a0df2f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1ce4310b98cea8b0",
+    "id": "a0d232c5464b9802",
     "type": "split",
     "children": [
       {
-        "id": "2e803dd24ca62fef",
+        "id": "b2baf6327f85f79d",
         "type": "tabs",
         "children": [
           {
-            "id": "fd7cc8cc12b4d9f1",
+            "id": "6b575a051396a5f9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "97ebe0fc4613c355",
+            "id": "e59ed03338a694ea",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "9f9bd67ce2d25a09",
+            "id": "e4463345439d005d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "68eecc57d4202668",
+    "id": "6f123e8886e037a9",
     "type": "split",
     "children": [
       {
-        "id": "3455e491983d5886",
+        "id": "eca4b1b3a4ae8661",
         "type": "tabs",
         "children": [
           {
-            "id": "a288ea16ccd79cfb",
+            "id": "f096e52e0dbc8975",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "49fb7b541c026d1f",
+            "id": "4da2b57175c6832a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0715c3a122ed86bb",
+            "id": "5eaf45f108cd1abf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "99f7cd527066a1d5",
+            "id": "95457a36a7f1f135",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Rust/Projects/Guessing Game/Guessing Game(Rust).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -143,49 +135,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "soundscapes:Soundscapes: My Music": false,
-      "homepage:Open homepage": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "c4fbf786a21a5d0f",
-  "lastOpenFiles": [
-    "Rust/Projects/hello_world/hello_world(Rust).md",
-    "Rust/Projects/hello_cargo/hello_cargo(Rust).md",
-    "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
-    "Rust/Error handling(Rust).md",
-    "Rust/cmp(Rust).md",
-    "Rust/rand(Rust).md",
-    "Rust/Projects/Guessing Game",
-    "Templates/Script_Template.md",
-    "Templates/Project_Template.md",
-    "Class/Python.md",
-    "Templates/Programming_Template.md",
-    "Background/Choices/ProgrammingChoices.md",
-    "Class/Script.md",
-    "Rust/Placeholders(Rust).md",
-    "Rust/read_line(Rust).md",
-    "Rust/References(Rust).md",
-    "Rust/String(Rust).md",
-    "Rust/Variables(Rust).md",
-    "Rust/Use(Rust).md",
-    "Rust/Cargo(Rust).md",
-    "Rust/toml(Rust).md",
-    "Rust/Projects/hello_cargo",
-    "Rust/Projects/hello_cargo(Rust).md",
-    "Rust/Compling and Running(Rust).md",
-    "Rust/Ending Sentences(Rust).md",
-    "Rust/Macro(Rust).md",
-    "Rust/Style(Rust).md",
-    "Rust/main(Rust).md",
-    "Rust/Projects/hello_world",
-    "Rust/Projects",
-    "Scripts",
-    "Rust",
-    "Background/Choices",
-    "Background",
-    "Templates",
-    "Class"
-  ]
+  "active": "0e119e07b3a0df2f",
+  "lastOpenFiles": []
 }
