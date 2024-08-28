@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"70457e56b5252469","x":-140,"y":-60,"width":250,"height":60,"type":"text","text":"Main Ideas"},
+		{"id":"32a41a600cb0b5c0","x":-183,"y":-283,"width":250,"height":60,"type":"text","text":"Hello World"},
+		{"id":"bfd0a61f5dc4bab3","x":156,"y":-159,"width":250,"height":60,"type":"text","text":"hello Cargo"},
+		{"id":"08ece696b99919f2","x":-15,"y":-420,"width":250,"height":50,"type":"text","text":"Macros"},
+		{"id":"11f31786ce5a4654","x":-340,"y":-420,"width":250,"height":60,"type":"text","text":"Compiling"},
+		{"id":"915870f37ac84c6c","x":480,"y":-283,"width":250,"height":60,"type":"text","text":"TOML"},
+		{"id":"1b2a7adad87efdfc","x":480,"y":-159,"width":250,"height":60,"type":"text","text":"Cargo"},
+		{"id":"083501af7f839480","x":480,"y":-30,"width":250,"height":60,"type":"text","text":"separation of duties"},
+		{"id":"eabcad6e7c3270c3","x":-440,"y":60,"width":250,"height":60,"type":"text","text":"Guessing game"},
+		{"id":"46e44e42fb201790","x":-800,"y":-99,"width":250,"height":60,"type":"text","text":"Mutability"},
+		{"id":"fbbbc97ea6cd6d09","x":-865,"y":67,"width":250,"height":60,"type":"text","text":"Reader input"},
+		{"id":"2868ff13e9ee6f3c","x":-796,"y":188,"width":250,"height":60,"type":"text","text":"Syntax"}
+	],
+	"edges":[
+		{"id":"7c0e62b5daad13db","fromNode":"70457e56b5252469","fromSide":"left","toNode":"eabcad6e7c3270c3","toSide":"right"},
+		{"id":"da8a86b8fbc612bf","fromNode":"70457e56b5252469","fromSide":"top","toNode":"32a41a600cb0b5c0","toSide":"bottom"},
+		{"id":"70261fd2c90fd54e","fromNode":"70457e56b5252469","fromSide":"top","toNode":"bfd0a61f5dc4bab3","toSide":"left"},
+		{"id":"dcc4809ba9cc84ea","fromNode":"32a41a600cb0b5c0","fromSide":"top","toNode":"11f31786ce5a4654","toSide":"bottom"},
+		{"id":"c04b56904ab59924","fromNode":"32a41a600cb0b5c0","fromSide":"top","toNode":"08ece696b99919f2","toSide":"bottom"},
+		{"id":"a69e79abcbd54236","fromNode":"bfd0a61f5dc4bab3","fromSide":"right","toNode":"915870f37ac84c6c","toSide":"left"},
+		{"id":"782faefd8ec5a47f","fromNode":"bfd0a61f5dc4bab3","fromSide":"right","toNode":"1b2a7adad87efdfc","toSide":"left"},
+		{"id":"d7a42eb61253c42e","fromNode":"bfd0a61f5dc4bab3","fromSide":"right","toNode":"083501af7f839480","toSide":"left"},
+		{"id":"894fcff0d65dff85","fromNode":"eabcad6e7c3270c3","fromSide":"left","toNode":"46e44e42fb201790","toSide":"right"},
+		{"id":"977114cebf791088","fromNode":"eabcad6e7c3270c3","fromSide":"left","toNode":"fbbbc97ea6cd6d09","toSide":"right"},
+		{"id":"488bfc2e6a4c1751","fromNode":"eabcad6e7c3270c3","fromSide":"left","toNode":"2868ff13e9ee6f3c","toSide":"right"}
+	]
+}

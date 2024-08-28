@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0334d51c1af86ad8",
+        "id": "73d182cb83db2f49",
         "type": "tabs",
         "children": [
           {
-            "id": "c4fbf786a21a5d0f",
+            "id": "7c040f6cc0dc27b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
+                "file": "Rust/Arrays(Rust).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
+                "file": "Rust/Arrays(Rust).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
+                "file": "Rust/Arrays(Rust).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust/Projects/Guessing Game/Guessing Game(Rust).md"
+                "file": "Rust/Arrays(Rust).md"
               }
             }
           }
@@ -149,17 +149,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c4fbf786a21a5d0f",
+  "active": "7c040f6cc0dc27b0",
   "lastOpenFiles": [
+    "Rust/Tuples(Rust).md",
+    "Rust/Arrays(Rust).md",
+    "Rust/Compound types(Rust).md",
+    "Rust/Shadowing(Rust).md",
+    "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
+    "Scripts/Week_1 Rust/Week_1 Rust.canvas",
+    "Templates/Script_Template.md",
+    "Scripts/Week_1 Rust",
+    "Scripts/null(Rust).md",
+    "Templates/Project_Template.md",
+    "Rust/Const(Rust).md",
+    "Rust/loop(Rust).md",
+    "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
     "Rust/Projects/hello_world/hello_world(Rust).md",
     "Rust/Projects/hello_cargo/hello_cargo(Rust).md",
-    "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
     "Rust/Error handling(Rust).md",
     "Rust/cmp(Rust).md",
     "Rust/rand(Rust).md",
     "Rust/Projects/Guessing Game",
-    "Templates/Script_Template.md",
-    "Templates/Project_Template.md",
     "Class/Python.md",
     "Templates/Programming_Template.md",
     "Background/Choices/ProgrammingChoices.md",
@@ -170,22 +180,13 @@
     "Rust/String(Rust).md",
     "Rust/Variables(Rust).md",
     "Rust/Use(Rust).md",
-    "Rust/Cargo(Rust).md",
-    "Rust/toml(Rust).md",
     "Rust/Projects/hello_cargo",
-    "Rust/Projects/hello_cargo(Rust).md",
-    "Rust/Compling and Running(Rust).md",
-    "Rust/Ending Sentences(Rust).md",
-    "Rust/Macro(Rust).md",
-    "Rust/Style(Rust).md",
-    "Rust/main(Rust).md",
     "Rust/Projects/hello_world",
     "Rust/Projects",
     "Scripts",
     "Rust",
     "Background/Choices",
     "Background",
-    "Templates",
-    "Class"
+    "Templates"
   ]
 }
