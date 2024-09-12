@@ -10,3 +10,7 @@ You may be able to put arguments inside the () parenthesis and the main operatio
 
 
 
+# Links
+
+[[functions(Rust)]]
+[[Style(Rust)]]

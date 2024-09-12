@@ -1,6 +1,6 @@
 ---
 fileClass: Rust, Programming
-Links: 
+Links:
 ---
 # Purpose
 This is to have a list on a computer of a set length. It is also a [[Compound types(Rust)|compound type]] like [[Tuples(Rust)|tuples]]. There are multiple ways to initialize them. That we will proceed through in this note. One issue is that the size of these arrays don't change. I am curious how rust deals with that? [[Shadowing(Rust)|Shadowing]], perhaps?

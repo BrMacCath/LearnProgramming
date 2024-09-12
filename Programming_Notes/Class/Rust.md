@@ -9,6 +9,16 @@ excludes:
 extends: 
 savedViews: []
 favoriteView: 
-fieldsOrder: []
-version: "2.0"
+fieldsOrder:
+  - J9wDjt
+version: "2.6"
+fields:
+  - name: Purpose
+    type: Select
+    options:
+      sourceType: ValuesListNotePath
+      valuesList: {}
+      valuesListNotePath: Background/Choices/PurposeChoices.md
+    path: ""
+    id: J9wDjt
 ---

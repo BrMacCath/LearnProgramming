@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "73d182cb83db2f49",
+        "id": "236aa3a736327da2",
         "type": "tabs",
         "children": [
           {
-            "id": "7c040f6cc0dc27b0",
+            "id": "c6ad2110ea554cee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Arrays(Rust).md",
+                "file": "Rust/Control Flow/For(Rust).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Arrays(Rust).md",
+                "file": "Rust/Control Flow/For(Rust).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/Arrays(Rust).md",
+                "file": "Rust/Control Flow/For(Rust).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust/Arrays(Rust).md"
+                "file": "Rust/Control Flow/For(Rust).md"
               }
             }
           }
@@ -149,10 +149,30 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7c040f6cc0dc27b0",
+  "active": "c6ad2110ea554cee",
   "lastOpenFiles": [
-    "Rust/Tuples(Rust).md",
+    "Templates/Programming_Template.md",
+    "Rust/Control Flow",
+    "Rust/Control Flow/For(Rust).md",
+    "Rust/While(Rust).md",
+    "Rust/loop(Rust).md",
+    "Class/Rust.md",
+    "Background/Choices/PurposeChoices.md",
+    "Rust/Cargo(Rust).md",
+    "Background/Choices/ProgrammingChoices.md",
     "Rust/Arrays(Rust).md",
+    "Class/Python.md",
+    "Rust/Else If(Rust).md",
+    "Rust/If(Rust).md",
+    "Rust/Comments(Rust).md",
+    "Rust/main(Rust).md",
+    "Rust/Expressions(Rust).md",
+    "Rust/Statements(Rust).md",
+    "Rust/functions(Rust).md",
+    "Rust/Style(Rust).md",
+    "Rust/Snake Case(Rust).md",
+    "Rust/read_line(Rust).md",
+    "Rust/Tuples(Rust).md",
     "Rust/Compound types(Rust).md",
     "Rust/Shadowing(Rust).md",
     "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
@@ -160,33 +180,13 @@
     "Templates/Script_Template.md",
     "Scripts/Week_1 Rust",
     "Scripts/null(Rust).md",
-    "Templates/Project_Template.md",
-    "Rust/Const(Rust).md",
-    "Rust/loop(Rust).md",
-    "Rust/Projects/Guessing Game/Guessing Game(Rust).md",
-    "Rust/Projects/hello_world/hello_world(Rust).md",
-    "Rust/Projects/hello_cargo/hello_cargo(Rust).md",
-    "Rust/Error handling(Rust).md",
-    "Rust/cmp(Rust).md",
-    "Rust/rand(Rust).md",
     "Rust/Projects/Guessing Game",
-    "Class/Python.md",
-    "Templates/Programming_Template.md",
-    "Background/Choices/ProgrammingChoices.md",
-    "Class/Script.md",
-    "Rust/Placeholders(Rust).md",
-    "Rust/read_line(Rust).md",
-    "Rust/References(Rust).md",
-    "Rust/String(Rust).md",
-    "Rust/Variables(Rust).md",
-    "Rust/Use(Rust).md",
     "Rust/Projects/hello_cargo",
     "Rust/Projects/hello_world",
     "Rust/Projects",
     "Scripts",
     "Rust",
     "Background/Choices",
-    "Background",
-    "Templates"
+    "Background"
   ]
 }

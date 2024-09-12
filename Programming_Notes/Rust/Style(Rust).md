@@ -10,4 +10,8 @@ This is to ensure that people across many different computers operate in a simil
 
 Rust syntax is to use 4 spaces rather than a tab
 
+## Functions
+
+Functions are used with the [[Snake Case(Rust)|snake case]].
+
 
