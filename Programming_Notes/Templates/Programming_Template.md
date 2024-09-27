@@ -19,7 +19,7 @@ const purpose = await tp.system.suggester(purp,purp,true,"What Purpose?");
 
 const topic = await tp.system.prompt("Name of Topic:");
 tR ="---\n"
-tR += `fileClass: ${language}, Programming\n`
+tR += `fileClass: ${language}\n`
 tR += `Purpose: ${purpose}\n`
 tR += "Links: \n"
 tR += "---"

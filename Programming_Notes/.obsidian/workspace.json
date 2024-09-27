@@ -4,22 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "236aa3a736327da2",
+        "id": "66f6c098c2ab17ef",
         "type": "tabs",
         "children": [
           {
-            "id": "c6ad2110ea554cee",
+            "id": "80000fab8b427328",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Control Flow/For(Rust).md",
+                "file": "Background/Choices/TaskStatusChoices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "045466e4d0d9eee3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class/Task.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c923cdade59eb5c",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__Task",
+              "state": {}
+            }
+          },
+          {
+            "id": "c82411c18b4f9d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80548b91ba816185",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Script_Task_Template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Control Flow/For(Rust).md",
+                "file": "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/Control Flow/For(Rust).md",
+                "file": "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust/Control Flow/For(Rust).md"
+                "file": "Scripts/Week_1 Rust/Week_1 Rust(Rust).md"
               }
             }
           }
@@ -146,47 +191,47 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "soundscapes:Soundscapes: My Music": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "c6ad2110ea554cee",
+  "active": "c82411c18b4f9d76",
   "lastOpenFiles": [
-    "Templates/Programming_Template.md",
-    "Rust/Control Flow",
-    "Rust/Control Flow/For(Rust).md",
-    "Rust/While(Rust).md",
-    "Rust/loop(Rust).md",
-    "Class/Rust.md",
-    "Background/Choices/PurposeChoices.md",
-    "Rust/Cargo(Rust).md",
-    "Background/Choices/ProgrammingChoices.md",
-    "Rust/Arrays(Rust).md",
-    "Class/Python.md",
-    "Rust/Else If(Rust).md",
-    "Rust/If(Rust).md",
-    "Rust/Comments(Rust).md",
-    "Rust/main(Rust).md",
-    "Rust/Expressions(Rust).md",
-    "Rust/Statements(Rust).md",
-    "Rust/functions(Rust).md",
-    "Rust/Style(Rust).md",
-    "Rust/Snake Case(Rust).md",
-    "Rust/read_line(Rust).md",
-    "Rust/Tuples(Rust).md",
-    "Rust/Compound types(Rust).md",
-    "Rust/Shadowing(Rust).md",
-    "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
     "Scripts/Week_1 Rust/Week_1 Rust.canvas",
-    "Templates/Script_Template.md",
-    "Scripts/Week_1 Rust",
-    "Scripts/null(Rust).md",
-    "Rust/Projects/Guessing Game",
-    "Rust/Projects/hello_cargo",
-    "Rust/Projects/hello_world",
-    "Rust/Projects",
-    "Scripts",
-    "Rust",
-    "Background/Choices",
-    "Background"
+    "Scripts/Week_1 Rust/Tasks/NotFinished/adfgsdhw.md.md",
+    "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/cxvz.md.md",
+    "Welcome.md",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/agsd.md.md",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/sgddf.md.md",
+    "Templates/UpdateWelcome.md",
+    "Templates/Script_Task_Template.md",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/Record video.md.md",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/adfgasdg.md.md",
+    "Untitled 5.md",
+    "Background/Choices/TaskStatusChoices.md",
+    "Class/Task.md",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/--------------------------.md",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/sfhd.md.md",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/kjafsdfsadjhsdfa.md.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Templates/Project_Template.md",
+    "Untitled 1.md",
+    "Untitled 8.md",
+    "Untitled 7.md",
+    "Rust/Projects/asf/asf(Rust).md",
+    "Rust/Projects/asf",
+    "Scripts/Week_1 Rust/Tasks/NotFinished/32423.md.md",
+    "Scripts/Week_undefined Rust/Tasks/NotFinished",
+    "Scripts/Week_undefined Rust/Tasks",
+    "Scripts/Week_undefined Rust",
+    "Scripts/Week_null Rust/Tasks/NotFinished",
+    "Scripts/Week_null Rust/Tasks",
+    "Scripts/Week_null Rust",
+    "Scripts/Week_1 Rust/Tasks/NotFinished",
+    "Scripts/Week_1 Rust/Tasks",
+    "Background/WelcomePage"
   ]
 }

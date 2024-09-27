@@ -11,7 +11,7 @@ for(i=0; i < temp.length;i++){
 const language = await tp.system.suggester(langs,langs,true,"What language?");
 const script = await tp.system.prompt("Name of script:");
 tR ="---\n"
-tR += `fileClass: Scripts, Programming\n`
+tR += `fileClass: Script\n`
 tR += "Links: \n"
 tR += "---"
 -%>
