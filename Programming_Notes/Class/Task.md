@@ -16,7 +16,13 @@ fields:
       valuesListNotePath: Background/Choices/TaskChoices.md
     path: ""
     id: SIGzcD
-version: "2.3"
+  - name: weekNum
+    type: Number
+    options:
+      min: 0
+    path: ""
+    id: qoFB56
+version: "2.4"
 limit: 20
 mapWithTag: false
 icon: package
@@ -28,6 +34,7 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - qoFB56
   - SIGzcD
   - gNXItv
 ---

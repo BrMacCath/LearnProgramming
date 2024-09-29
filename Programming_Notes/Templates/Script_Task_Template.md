@@ -36,12 +36,14 @@ const taskCategory = await tp.system.suggester(tasks,tasks,true,"What is the cat
 tR = `---\n`
 tR += `fileClass: Task\n`
 tR += "taskStatus: Not Started\n"
+tR += `weekNum: ${weekNum}\n`
 tR += `taskType: ${taskCategory}\n`
 tR += `due_date: ${dueDate}\n`
 tR+= `---\n`
 -%>
 
-
+# Task
 - [ ] <% task %> #Script 
 
-<% tp.file.move(`Scripts/Week_${weekNum} ${language}/Tasks/NotFinished/${task}.md`) %> 
+
+<% tp.file.move(`Scripts/Week_${weekNum} ${language}/Tasks/NotFinished/${task}`) %> 

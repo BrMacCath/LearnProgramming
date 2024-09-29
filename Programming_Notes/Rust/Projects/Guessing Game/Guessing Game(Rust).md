@@ -1,5 +1,5 @@
 ---
-fileClass: Rust, Programming
+fileClass: Rust
 Links: 
 ---
 # Purpose

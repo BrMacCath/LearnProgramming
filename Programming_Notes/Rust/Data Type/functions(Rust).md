@@ -65,7 +65,7 @@ fn main() {
 ```
 I think this example works but I have no idea if it fits the style of Rust formatting.
 
-## Gripes with functions
+## Gripes with Functions
 
 In functions the last statement is what is returned if it is not explicitly stated. This sounds okay until you realise you have to not use a semi-colon to return a value in the last line. This feels odd to me as it goes against things before this. There is probably a clever reason for this but I don't know what it is.
 # Links

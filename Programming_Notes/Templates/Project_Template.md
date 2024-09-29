@@ -10,7 +10,7 @@ for(i=0; i < temp.length;i++){
 const language = await tp.system.suggester(langs,langs,true,"What language?");
 const project = await tp.system.prompt("Name of Project:");
 tR ="---\n"
-tR += `fileClass: ${language}, Programming\n`
+tR += `fileClass: ${language}\n`
 tR += "Links: \n"
 tR += "---"
 -%>

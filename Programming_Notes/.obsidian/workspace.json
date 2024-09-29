@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "66f6c098c2ab17ef",
+        "id": "09876d4b6d2f7199",
         "type": "tabs",
         "children": [
           {
-            "id": "80000fab8b427328",
+            "id": "9774e13af7001d35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Background/Choices/TaskStatusChoices.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "045466e4d0d9eee3",
+            "id": "714f68451cba19e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Task.md",
+                "file": "Scripts/Week_1 Rust/Tasks/Complete/TestTemplate.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2c923cdade59eb5c",
+            "id": "685e00a5151e0223",
             "type": "leaf",
             "state": {
               "type": "FileClassView__Task",
@@ -40,31 +40,79 @@
             }
           },
           {
-            "id": "c82411c18b4f9d76",
+            "id": "22fc603732433ba3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
+                "file": "Background/Templates/UpdateWeek.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "80548b91ba816185",
+            "id": "76f477ca3f355e68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Script_Task_Template.md",
+                "file": "Scripts/Week_1 Rust/Tasks/Complete/asfdasf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddbd6daeb37ce2f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scripts/Week_1 Rust/Tasks/Complete/asfdasf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2634eb60fa2532fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scripts/Week_1 Rust/Tasks/Complete/asfdasf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d205f68758a40ef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scripts/Week_1 Rust/Tasks/Complete/asfdasf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "689466c6443959e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Background/Templates/UpdateTasks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -130,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
+                "file": "Background/Templates/UpdateTasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
+                "file": "Background/Templates/UpdateTasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,11 +218,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scripts/Week_1 Rust/Week_1 Rust(Rust).md"
+                "file": "Background/Templates/UpdateTasks.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,43 +244,44 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c82411c18b4f9d76",
+  "active": "689466c6443959e4",
   "lastOpenFiles": [
+    "sdf.md",
+    "Background/Templates/UpdateTasks.md",
+    "1.md",
+    "asdfa.md",
+    "afsd.md",
+    "asdf1.md",
+    "2.md",
+    "dsafa.md",
+    "sfda.md",
+    "asfd2.md",
+    "h.md",
+    "sfad.md",
+    "sfa.md",
+    "sfaf.md",
+    "asfd1.md",
+    "asfd.md",
+    "fdsa.md",
+    "dfa.md",
+    "fdavzsd.md",
+    "asdfag.md",
+    "sdfa1.md",
+    "sfd.md",
+    "sdfa.md",
+    "fsafba.md",
+    "fasfd.md",
+    "Templates/New_Week_Template.md",
+    "Scripts/Week_1 Rust/Tasks/Complete",
     "Scripts/Week_1 Rust/Week_1 Rust.canvas",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/adfgsdhw.md.md",
-    "Scripts/Week_1 Rust/Week_1 Rust(Rust).md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/cxvz.md.md",
-    "Welcome.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/agsd.md.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/sgddf.md.md",
-    "Templates/UpdateWelcome.md",
-    "Templates/Script_Task_Template.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/Record video.md.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/adfgasdg.md.md",
-    "Untitled 5.md",
-    "Background/Choices/TaskStatusChoices.md",
-    "Class/Task.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/--------------------------.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/sfhd.md.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/kjafsdfsadjhsdfa.md.md",
-    "Untitled 4.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "Templates/Project_Template.md",
-    "Untitled 1.md",
-    "Untitled 8.md",
-    "Untitled 7.md",
-    "Rust/Projects/asf/asf(Rust).md",
-    "Rust/Projects/asf",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/32423.md.md",
-    "Scripts/Week_undefined Rust/Tasks/NotFinished",
-    "Scripts/Week_undefined Rust/Tasks",
-    "Scripts/Week_undefined Rust",
-    "Scripts/Week_null Rust/Tasks/NotFinished",
-    "Scripts/Week_null Rust/Tasks",
-    "Scripts/Week_null Rust",
-    "Scripts/Week_1 Rust/Tasks/NotFinished",
-    "Scripts/Week_1 Rust/Tasks",
-    "Background/WelcomePage"
+    "Scripts/Week_2 Rust",
+    "Scripts/Week_3 Rust",
+    "Scripts/Week_1 Rust/Scripts",
+    "Scripts/Week_ Rust/Scripts",
+    "Scripts/Week_ Rust",
+    "Scripts/test",
+    "Background/Templates",
+    "jyg",
+    "Rust/Projects/asf"
   ]
 }
