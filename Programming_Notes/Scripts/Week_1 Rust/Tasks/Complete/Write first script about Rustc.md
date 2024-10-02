@@ -1,13 +1,13 @@
 ---
 fileClass: Task
-taskStatus: Not Started
+taskStatus: Done
 taskType: Script
 due_date: 2024-09-30
 weekNum: 1
 ---
 
 # Task
-- [ ] Write first script about [[Rustc Description(Rust)|rustc]] #Script 
+- [x] Write first script about [[Rustc Description(Rust)|rustc]] #Script 
 
 
 

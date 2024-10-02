@@ -137,29 +137,26 @@ GROUP BY taskType
 
 | Script-Task                                                                                                 | Status | Due-Date   |
 | ----------------------------------------------------------------------------------------------------------- | ------ | ---------- |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Write Motivation Script.md\|Write Motivation Script]]               | \-     | 2024-09-30 |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Write first script about Rustc.md\|Write first script about Rustc]] | \-     | 2024-09-30 |
+| [[Write Motivation Script\|Write Motivation Script]]               | \-     | 2024-09-30 |
 | [[Scripts/Week_1 Rust/Tasks/NotFinished/Write first script about Cargo.md\|Write first script about Cargo]] | \-     | 2024-09-30 |
 | [[Scripts/Week_1 Rust/Tasks/NotFinished/Write about guessing game.md\|Write about guessing game]]           | \-     | 2024-09-30 |
-| [[TestTemplate\|TestTemplate]]                                     | \-     | 2024-09-30 |
+| [[Scripts/Week_1 Rust/Tasks/Complete/Write first script about Rustc.md\|Write first script about Rustc]]    | \-     | 2024-09-30 |
 
 
 | Research-Task                                                                                               | Status | Due-Date   |
 | ----------------------------------------------------------------------------------------------------------- | ------ | ---------- |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Write Motivation Script.md\|Write Motivation Script]]               | \-     | 2024-09-30 |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Write first script about Rustc.md\|Write first script about Rustc]] | \-     | 2024-09-30 |
+| [[Write Motivation Script\|Write Motivation Script]]               | \-     | 2024-09-30 |
 | [[Scripts/Week_1 Rust/Tasks/NotFinished/Write first script about Cargo.md\|Write first script about Cargo]] | \-     | 2024-09-30 |
 | [[Scripts/Week_1 Rust/Tasks/NotFinished/Write about guessing game.md\|Write about guessing game]]           | \-     | 2024-09-30 |
-| [[TestTemplate\|TestTemplate]]                                     | \-     | 2024-09-30 |
+| [[Scripts/Week_1 Rust/Tasks/Complete/Write first script about Rustc.md\|Write first script about Rustc]]    | \-     | 2024-09-30 |
 
 
 | Recording-Task                                                                                              | Status | Due-Date   |
 | ----------------------------------------------------------------------------------------------------------- | ------ | ---------- |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Write Motivation Script.md\|Write Motivation Script]]               | \-     | 2024-09-30 |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Write first script about Rustc.md\|Write first script about Rustc]] | \-     | 2024-09-30 |
+| [[Write Motivation Script\|Write Motivation Script]]               | \-     | 2024-09-30 |
 | [[Scripts/Week_1 Rust/Tasks/NotFinished/Write first script about Cargo.md\|Write first script about Cargo]] | \-     | 2024-09-30 |
 | [[Scripts/Week_1 Rust/Tasks/NotFinished/Write about guessing game.md\|Write about guessing game]]           | \-     | 2024-09-30 |
-| [[TestTemplate\|TestTemplate]]                                     | \-     | 2024-09-30 |
+| [[Scripts/Week_1 Rust/Tasks/Complete/Write first script about Rustc.md\|Write first script about Rustc]]    | \-     | 2024-09-30 |
 
 
 | Finished-Task | Status | Task-Type |

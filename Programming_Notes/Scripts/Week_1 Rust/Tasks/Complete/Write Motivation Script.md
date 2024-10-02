@@ -7,6 +7,6 @@ weekNum: 1
 ---
 
 # Task
-- [x] TestTemplate #Script 
+- [x] Write [[Motivation for Layout of Rust Course(Rust)|Motivation]] Script #Script 
 
  
