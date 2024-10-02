@@ -61,7 +61,7 @@
       "name": "Publish Prep",
       "type": "Template",
       "command": true,
-      "templatePath": "Home.md",
+      "templatePath": "Background/Templates/PublishPrepTemplate.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "Untitleddd"
@@ -151,22 +151,10 @@
       "id": "2c91ab4f-fec8-45c8-9b6d-2122047fb68b",
       "commands": [
         {
-          "name": "Update Tasks",
-          "type": "Choice",
-          "id": "97313968-7345-4994-94fc-72810b7f1059",
-          "choiceId": "72b1ffb0-7c20-4fc2-9008-30c981b48a1c"
-        },
-        {
-          "name": "QuickAdd: Update Weeks",
+          "name": "Templater: Create new note from template",
           "type": "Obsidian",
-          "id": "d10a3941-2fcf-43b3-936a-130d06021d93",
-          "commandId": "quickadd:choice:e3facd95-fd32-4199-8cac-f8809a09d7e8"
-        },
-        {
-          "name": "Update Welcome",
-          "type": "Choice",
-          "id": "40988c93-4dd4-4899-a635-4439ce801caa",
-          "choiceId": "b1eb6d83-ec61-4bf0-a458-e5391deed622"
+          "id": "01bcbd06-2d71-4771-a40d-17865b28670e",
+          "commandId": "templater-obsidian:create-new-note-from-template"
         }
       ],
       "runOnStartup": false

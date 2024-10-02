@@ -1,3 +1,3 @@
-Script
 Research
+Script
 Recording

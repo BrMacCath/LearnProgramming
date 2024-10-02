@@ -9,6 +9,15 @@ excludes:
 extends: 
 savedViews: []
 favoriteView: 
-fieldsOrder: []
-version: "2.0"
+fieldsOrder:
+  - RwZxiQ
+version: "2.1"
+fields:
+  - name: SectionNum
+    type: Number
+    options:
+      step: 1
+      min: 1
+    path: ""
+    id: RwZxiQ
 ---
