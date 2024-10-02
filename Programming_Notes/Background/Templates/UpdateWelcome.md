@@ -21,4 +21,7 @@ let welcomeText = text + "\n\n" + queryOutput.value;
 // write query output to file
 await app.vault.modify(tFile, welcomeText);
 // This prevents an untitled file from being created. Need another way to do this.
+
+
+
 %>
