@@ -4,7 +4,7 @@ Links:
 ---
 # Script Goal
 
-The main point here is to get used to talking about what I think. I am going to talk about things I have seen before.
+Goal for this week is to get a video out and talk about things I find interesting.
 
 ## Picture overview
 

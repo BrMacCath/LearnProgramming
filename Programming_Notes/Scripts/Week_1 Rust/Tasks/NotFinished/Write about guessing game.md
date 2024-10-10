@@ -1,6 +1,6 @@
 ---
 fileClass: Task
-taskStatus: Not Started
+taskStatus: Making Progress
 taskType: Script
 due_date: 2024-09-30
 weekNum: 1
