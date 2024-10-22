@@ -31,7 +31,7 @@ tR += "---"
 # Links
 
 
-[[Style(Rust)|Style]]
+[[Style(<%language %>)|Style]]
 
 
 <%tp.file.move(`${language}/${purpose}/${topic}(${language})`)%>

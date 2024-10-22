@@ -22,7 +22,16 @@ fields:
       min: 0
     path: ""
     id: qoFB56
-version: "2.4"
+  - name: due_date
+    type: Date
+    options:
+      dateShiftInterval: 1 day
+      dateFormat: MM-DD-YYYY
+      defaultInsertAsLink: false
+      linkPath: ""
+    path: ""
+    id: 4FR47V
+version: "2.6"
 limit: 20
 mapWithTag: false
 icon: package
@@ -34,6 +43,7 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - 4FR47V
   - qoFB56
   - SIGzcD
   - gNXItv

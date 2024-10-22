@@ -39,27 +39,53 @@ So when we use Cargo to build this, we can create our TOML file with a lot of in
 
 
 ## Third Paragraph
-Topic: Libraries
+Topic: Diagram of the code. 
 
-## Fourth Paragraph
-Accepting Input
+- Going to start trying to learn best practices.
+- Make diagrams to show what the concepts are.
+- Describe the problem
+
+When doing this, I want to try to learn best practices for coding as well. On this note I have seen people made diagrams to explain the problem so I have decided I will try to do the same. On the screen I have made a diagram for the problem we are going to be trying to solve. We are making the a game where the user has to guess a secret number. If it is too high, they get a response of too high and if it is too low they get a response of too low. They keep repeating until they get the correct answer in which the game ends with a message telling them they have won. Lets start building the pieces of this game.
+
 
 ## Fifth Paragraph
-Topic: Unmutable variables
+Topic: Generating random numbers.
+- Libraries.
+- Messing with them.
+Our first step is to create a secret number. To do this we need to use a library. We will be using the rand library. To import a library we use the keyword use followed by the library name. This is followed by some other things we import aswell (this is vague but I think I will fix it after the later paragraphs.) Note that we also need to state the version of this we have in our TOML file. Here we can state the version of the library we want as shown on screen. We can also change it and try to build it again. Note if we try ask for a version that does not exist we will get an error message.
+
 
 ## Sixth Paragraph
-Topic: Find the topic, you can do this! :)
-
-
-BLAAHH
-
-
+Topic: Unmutable variables and accepting inputs. Pointers too!
+- variables enter unchangeable
+- We use the let keyword.
+- gen range function notation
+Now we will generate the random number. We use the let keyword to assign variables. An interesting thing about Rust is that this assumes variables are unchangeable to begin. Rust also follows the convention of snake case for variables. Snake case is where we make all the initial letters lower case and put an underscore between words. Therefore our secret number is written as seen on screen. To generate the random number we use the command rand :: thread_rng().gen_range(1..=100)
 ## Seventh Paragraph
+Topic: Error matching
+
+
+## Eight Paragraph
+Topic: Comparison Library
 
 
 
 
 
+## Ninth Paragraph
+Topic Things I don't understand.
+- Using :: :: get's the top library.
+- :: versus .
+- mut inside and outside the variable.
+- names with pattern matching.
+- ..= is inclusive range, .. is exclusive range
+
+
+
+
+
+## Tenth Paragraph
+Topic: Sign off!
 
 
 

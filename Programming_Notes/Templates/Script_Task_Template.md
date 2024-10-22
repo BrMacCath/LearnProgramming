@@ -19,7 +19,7 @@ const weekNum = await tp.system.prompt("What week is this for?",`${weekNumDefaul
 
 // Our goal is to get out task at this point and the date of when it is due. It is automatically set to the following Monday.
 const task = await tp.system.prompt("Task?");
-const dueDate = await tp.system.prompt("Due Date",tp.date.weekday('YYYY-MM-DD',8)  );
+const dueDate = await tp.system.prompt("Due Date",tp.date.weekday('MM-DD-YYYY',8)  );
 
 // Now we are going to categorize out tasks
 let taskLocation = 'Background/Choices/TaskChoices.md'

@@ -28,6 +28,16 @@ Check_If_they_are_equal --> You_Win!: Equal
 
 
 # Things I don't understand
+
+## :: versus .
+
+In this code, there is part of the script where we write
+
+```Rust
+let secret_number = rand::thread_rng().gen_range(1..=100);
+```
+This could be my inexperience but, it feels like the :: and the dot are both accessing subfolders/ attributes but they are clearly doing things differently. I am unsure of what the difference is.
+
 ## thread_rng().gen_range()
 In part of the code we say 
 ```Rust

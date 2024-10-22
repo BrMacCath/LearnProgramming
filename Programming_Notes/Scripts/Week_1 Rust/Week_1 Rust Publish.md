@@ -26,9 +26,9 @@ graph TB
 
 
 
-| Editing-Task                                                        | Status      | Due-Date   |
-| ------------------------------------------------------------------- | ----------- | ---------- |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Edit Video.md\|Edit Video]] | Not Started | 2024-10-14 |
+| Editing-Task                                                                              | Status      | Due-Date   |
+| ----------------------------------------------------------------------------------------- | ----------- | ---------- |
+| [[Scripts/Week_1 Rust/Tasks/NotFinished/Edit Video for Week 1.md\|Edit Video for Week 1]] | Not Started | 2024-10-14 |
 
 
 | Recording-Task                                                                            | Status      | Due-Date   |
@@ -36,9 +36,9 @@ graph TB
 | [[Scripts/Week_1 Rust/Tasks/NotFinished/Record Week 1 Scripts.md\|Record Week 1 Scripts]] | Not Started | 2024-10-14 |
 
 
-| Script-Task                                                                                       | Status      | Due-Date   |
-| ------------------------------------------------------------------------------------------------- | ----------- | ---------- |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Write about guessing game.md\|Write about guessing game]] | Not Started | 2024-09-30 |
+| Script-Task                                                                                       | Status          | Due-Date   |
+| ------------------------------------------------------------------------------------------------- | --------------- | ---------- |
+| [[Scripts/Week_1 Rust/Tasks/NotFinished/Write about guessing game.md\|Write about guessing game]] | Making Progress | 2024-09-30 |
 
 
 | Finished-Task                                                                                            | Status | Task-Type |
