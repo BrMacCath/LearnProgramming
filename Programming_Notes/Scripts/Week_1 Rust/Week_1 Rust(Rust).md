@@ -1,6 +1,8 @@
 ---
-fileClass: Script
+fileClass: Overview
 Links: 
+weekNum: 1
+language: Rust
 ---
 # Script Goal
 

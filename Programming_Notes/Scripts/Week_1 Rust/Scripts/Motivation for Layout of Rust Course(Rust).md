@@ -2,6 +2,9 @@
 fileClass: Script
 Links: 
 SectionNum: "1"
+ScriptStatus: Done
+DraftNum: 2
+ParagraphNum: 
 ---
 # Script Goal
 
@@ -77,7 +80,12 @@ This may  be a bad idea so I am going to hold off until I know more about Rust.
 > One thing to consider is that I don't understand Rust so I will wait until I know more before fully committing to that decision.
 
 
+# Sources
 
+https://www.youtube.com/watch?v=lML0ndFlBuc
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa09tSk9XSl9PZE5aUXp3RzVpZW1ZYmFYM0did3xBQ3Jtc0ttS0Z1U2J6SnVTcDRkZVZzY2RncGFLbFNGWk41MU5GQ2ZVRFZaS0ZUNlJqSHAweDVkdEZiX0w5NUlkTHY2cHZrQWMxbU1HYkpuNWt1TkVJTV9BZGtEbDRpNWpiVUxxQkdFRWt4SWh4UmZiR1NCb0drWQ&q=https%3A%2F%2Fjordanbpeterson.com%2Fwp-content%2Fuploads%2F2018%2F02%2FEssay_Writing_Guide.docx&v=lML0ndFlBuc
+https://www.youtube.com/@nicolevdh
+https://notes.nicolevanderhoeven.com/Fork+My+Brain
 # Final Draft
 
 
@@ -89,9 +97,3 @@ Hi all! Welcome to my Youtube Channel. This channel is going to be about trying 
 
  To start learning Rust, I decided to follow common strategies people use to do so. This led me to the Rust website and the Rust book. The book is a starting place but there seems to be quite a few avenues you can branch off from from there. I think I am going to look at web development as I have previously made a website with Django and I have a new idea for a website.  One thing to consider is that I don't understand Rust so I will wait until I know more before fully committing to that decision. While proceeding through this book, I am going to try make connections between Rust and other languages that I know small parts of. I have heard making connections between different languages can be useful in learning.
 
-# Sources
-
-https://www.youtube.com/watch?v=lML0ndFlBuc
-https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa09tSk9XSl9PZE5aUXp3RzVpZW1ZYmFYM0did3xBQ3Jtc0ttS0Z1U2J6SnVTcDRkZVZzY2RncGFLbFNGWk41MU5GQ2ZVRFZaS0ZUNlJqSHAweDVkdEZiX0w5NUlkTHY2cHZrQWMxbU1HYkpuNWt1TkVJTV9BZGtEbDRpNWpiVUxxQkdFRWt4SWh4UmZiR1NCb0drWQ&q=https%3A%2F%2Fjordanbpeterson.com%2Fwp-content%2Fuploads%2F2018%2F02%2FEssay_Writing_Guide.docx&v=lML0ndFlBuc
-https://www.youtube.com/@nicolevdh
-https://notes.nicolevanderhoeven.com/Fork+My+Brain

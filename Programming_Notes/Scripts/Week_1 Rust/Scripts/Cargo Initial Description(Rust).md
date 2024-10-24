@@ -2,6 +2,7 @@
 fileClass: Script
 Links: 
 SectionNum: "3"
+ScriptStatus: Done
 ---
 # Script Goal
 
@@ -74,6 +75,9 @@ This is a command that checks if your code can compile but doesn't compile it in
 For large projects this could be extremely handy.
 >.
 
+# Sources
+
+https://toml.io/en/
 
 
 # Final Draft
@@ -83,6 +87,3 @@ For large projects this could be extremely handy.
 In practice, cargo is used instead of rustc to make code. Cargo allows you to manage other libraries and packages in your code efficiently. We can create a project with cargo by typing cargo project name and it will automatically make a folder of that name with files in it. The libraries that we can use will be held within a TOML folder. Let's dig into TOML by looking at the documentation.
 
 TOML is an abbreviation for Tom's obvious markdown language. To talk about the libraries you want to use, you have a title with square parentheses. You can talk about subfolders of this library by having the title dot followed by the subfolder. This convention is used in other places such as Python. These conditions are automatically enforced by cargo when the program is built.  Also, you have the advantage of selecting which version of a library you want. This is important as if there is an update to a library you are using and it causes your program to no longer work, you can downgrade. To do this, you specify which version of the library you want to use in your TOML file. To build the project, type cargo build into the terminal. One problem that could arise is that building your project each time to check for errors could be extremely time consuming. To combat this, cargo has a check command.  This runs tests on your code to see if it will compile but does not compile it itself. There's probably a lot more to TOML but we will go back to Rust now. To see cargo in action, let's build our first project!
-# Sources
-
-https://toml.io/en/
