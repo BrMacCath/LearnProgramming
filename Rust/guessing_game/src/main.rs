@@ -4,15 +4,17 @@ use rand::Rng;
 
 fn main(){
     println!("Guess the number!");
-    
+    // Get a secret number.
+
     let secret_number = rand::thread_rng().gen_range(1..=100);
 
-    let mut guess = String::new();
+    
     loop {
+        //let mut guess = String::new();
         println!("Please input your guess.");
 
         
-        guess = String::new();
+        let mut guess = String::new();
         io::stdin()
             .read_line(&mut guess)
             .expect("Failed to read line");
