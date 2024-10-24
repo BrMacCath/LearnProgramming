@@ -18,6 +18,9 @@ const weekNum = await tp.system.prompt("What week is this for?",`${weekNumDefaul
 const script = await tp.system.prompt("Name of script:");
 tR ="---\n"
 tR += `fileClass: Script\n`
+tR += `ScriptStatus: Not Started\n`
+tR += "ParagraphNum: 1\n"
+tR += "DraftNum: 1\n"
 tR += "Links: \n"
 tR += "---"
 -%>

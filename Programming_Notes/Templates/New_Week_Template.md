@@ -22,14 +22,15 @@ const languageWeekNumLocation = `Background/Choices/${language}WeekNum.md`;
 const weekNumDefault = await dv.io.load(languageWeekNumLocation);
 const newNum = Number(weekNumDefault) + 1;
 
-
+let text ="---\n";
+text += `fileClass: Overview\nlanguage: ${language}\nweekNum: ${newNum}\n---`;
 
 
 const name = `Week_${newNum}`;
 
 const folder = `Scripts/Week_${newNum} ${language}`;
 
-await tp.file.create_new(`${text3}`,name + ` ${language}(${language})`,true,folder);
+await tp.file.create_new(`${text}`,name + ` ${language}(${language})`,true,folder);
 const tFile = tp.file.find_tfile(languageWeekNumLocation);
 await app.vault.modify(tFile, `${newNum}`);
 await tp.file.create_new("",name + ` ${language} Publish`,true,folder)

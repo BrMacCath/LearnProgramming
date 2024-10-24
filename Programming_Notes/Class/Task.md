@@ -31,7 +31,7 @@ fields:
       linkPath: ""
     path: ""
     id: 4FR47V
-version: "2.6"
+version: "2.10"
 limit: 20
 mapWithTag: false
 icon: package

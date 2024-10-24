@@ -14,9 +14,11 @@ LIMIT 5`;
 
 
 const tFileWelcome = tp.file.find_tfile(filenameWelcome);
+
 const queryOutput = await dv.queryMarkdown(welcomeQuery);
 const text = await tp.file.include('[[WelcomeStart]]');
 let welcomeText = text + "\n\n" + queryOutput.value;
+
 
 // Now we need to let the Current weeks Scripts
 let location = 'Background/Choices/ProgrammingChoices.md';
@@ -53,7 +55,7 @@ langs.forEach( async (language) =>   {
 		file.link AS Note
 		FROM "${folder}"`;
 		let text = "";
-		text = await tp.file.include(`[[Scripts/Week_${i} ${language}/Week_1 ${language}(${language})]]`);
+		text = await tp.file.include(`[[Scripts/Week_${i} ${language}/Week_${i} ${language}(${language})]]`);
 		
 		const filename = `Scripts/Week_${i} ${language}/Week_${i} ${language} Publish.md`;
 		
@@ -69,23 +71,55 @@ langs.forEach( async (language) =>   {
 			if (count ===2){
 				return;
 			}
-			console.log(count);
+			
 			text += "\n\n" +queryOutput.value;
 		}));
-		
+
+		// Let's add tasks here
 		const queryChoice =`TABLE WITHOUT ID
 		file.link As Finished-Task, file.frontmatter.taskStatus As Status, file.frontmatter.taskType As Task-Type
 		FROM "${folder}"
 		WHERE file.frontmatter.taskStatus = "Done"
 		SORT file.link DESC`;
+		
 		const queryOutput = await dv.queryMarkdown(queryChoice);
 		text += "\n\n" +queryOutput.value;
+	
 		const tFile = tp.file.find_tfile(filename);
+		
+		// Let's add final draft here.
+		// We first add the final draft
+		text += "\n\n# Final Draft\n\n";
+		// Now we need to get all the current script locations
+		const script_folder = `Scripts/Week_${i} ${language}/Scripts`;
+	
+		console.log(5);
+		const ordered_scripts =dv.pages(`"${script_folder}"`).sort(p =>p.SectionNum);
+		console.log(ordered_scripts);
+		await Promise.all(ordered_scripts.map(async (script)=>
+		{
+			
+			if(script.ScriptStatus != "Done"){
+				text += "This section is incomplete\n";
+				return;
+			} 
+			
+	
+			const otherFile =script.file.folder + "/"+script.file.name+"."+script.file.ext;
+			
+			// This is where the issues lie.
+			const script_file = await dv.io.load(otherFile);
+
+			
+			const ind = script_file.indexOf("# Final Draft");
+			
+			text += script_file.slice(ind+13)+"\n";
+	
+			
+		}))
+
+
 		await app.vault.modify(tFile, text);
-
-
-
-
 	}
 
 

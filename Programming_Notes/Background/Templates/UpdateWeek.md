@@ -16,7 +16,7 @@ for(let i = 1; i <weekNum+1;i++){
 	file.link AS Note
 	FROM "${folder}"`;
 	let text = "";
-	text = await tp.file.include(`[[Scripts/Week_${i} ${language}/Week_1 Rust(Rust)]]`);
+	text = await tp.file.include(`[[Scripts/Week_${i} ${language}/Week_${i} Rust(Rust)]]`);
 	
 	const filename = `Scripts/Week_${i} ${language}/Week_${i} ${language} Publish.md`;
 	
@@ -38,8 +38,6 @@ for(let i = 1; i <weekNum+1;i++){
 	const queryOutput = await dv.queryMarkdown(queryChoice);
 	text += "\n\n" +queryOutput.value;
 	const tFile = tp.file.find_tfile(filename);
-	console.log(text);
-	console.log(tFile);
 	await app.vault.modify(tFile, text);
 }
 
