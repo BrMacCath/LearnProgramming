@@ -11,10 +11,11 @@ savedViews: []
 favoriteView: 
 fieldsOrder:
   - 7BcLvo
+  - dHk0ob
   - jtWEkd
   - sMtd9K
   - RwZxiQ
-version: "2.5"
+version: "2.8"
 fields:
   - name: SectionNum
     type: Number
@@ -44,4 +45,9 @@ fields:
       step: 1
     path: ""
     id: 7BcLvo
+  - name: complete
+    type: Boolean
+    options: {}
+    path: ""
+    id: dHk0ob
 ---

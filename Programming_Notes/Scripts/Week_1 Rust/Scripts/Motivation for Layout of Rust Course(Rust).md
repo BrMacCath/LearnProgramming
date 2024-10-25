@@ -5,6 +5,7 @@ SectionNum: "1"
 ScriptStatus: Done
 DraftNum: 2
 ParagraphNum: 
+complete: 
 ---
 # Script Goal
 

@@ -1,13 +1,6 @@
 `<%*
 let dv = app.plugins.plugins.dataview.api;
-let location = 'Background/Choices/ProgrammingChoices.md'
-let content = await dv.io.load(location)
-let temp = `${content}`.split("\n")
-let langs =[]
-for(i=0; i < temp.length;i++){
-	langs.push(temp[i])
-}
-const language = await tp.system.suggester(langs,langs,true,"What language?");
+const [language,weekNumDefault] = await tp.user.languageData(dv,tp); 
 const project = await tp.system.prompt("Name of Project:");
 tR ="---\n"
 tR += `fileClass: ${language}\n`

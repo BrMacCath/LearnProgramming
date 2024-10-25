@@ -15,7 +15,7 @@ LIMIT 5`;
 
 const tFile = tp.file.find_tfile(filename);
 const queryOutput = await dv.queryMarkdown(query);
-console.log(query);
+
 const text = await tp.file.include('[[WelcomeStart]]');
 let welcomeText = text + "\n\n" + queryOutput.value;
 // write query output to file
