@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"9b0e2c914d31547c","x":-400,"y":-220,"width":250,"height":60,"color":"1","type":"text","text":"Blender\n"},
+		{"id":"d03b44dcdeadc527","x":-793,"y":-213,"width":250,"height":60,"color":"5","type":"text","text":"Figure out editing best practices."},
+		{"id":"356bd9fdd5d870c7","x":-400,"y":-60,"width":250,"height":60,"color":"5","type":"text","text":"Create speal\n"},
+		{"id":"7c82baf7042478ac","x":-400,"y":-400,"width":250,"height":60,"color":"5","type":"text","text":"Learn transitions\n"},
+		{"id":"463d1ba4dedd53cb","x":178,"y":-237,"width":250,"height":60,"color":"1","type":"text","text":"Note management\n"},
+		{"id":"60b9a067b21185a9","x":164,"y":-428,"width":250,"height":60,"color":"5","type":"text","text":"Figure out how to rewrite first draft section\n"},
+		{"id":"2d1d461bb048f91f","x":115,"y":-41,"width":250,"height":60,"color":"5","type":"text","text":""}
+	],
+	"edges":[
+		{"id":"4b99c15e78bdc199","fromNode":"9b0e2c914d31547c","fromSide":"left","toNode":"d03b44dcdeadc527","toSide":"right"},
+		{"id":"57177d48ff294051","fromNode":"9b0e2c914d31547c","fromSide":"bottom","toNode":"356bd9fdd5d870c7","toSide":"top"},
+		{"id":"4320366c29cdaaa9","fromNode":"9b0e2c914d31547c","fromSide":"top","toNode":"7c82baf7042478ac","toSide":"bottom"}
+	]
+}

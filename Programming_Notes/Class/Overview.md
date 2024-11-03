@@ -15,7 +15,17 @@ fields:
       valuesListNotePath: Background/Choices/ProgrammingChoices.md
     path: ""
     id: zdu6mR
-version: "2.2"
+  - name: complete
+    type: Boolean
+    options: {}
+    path: ""
+    id: DAVKAL
+  - name: finalised
+    type: Boolean
+    options: {}
+    path: ""
+    id: 5nIGlB
+version: "2.5"
 limit: 20
 mapWithTag: false
 icon: search
@@ -27,6 +37,8 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - 5nIGlB
+  - DAVKAL
   - zdu6mR
   - koJlt4
 ---

@@ -7,7 +7,7 @@ const dv = app.plugins.plugins["dataview"].api;
 
 const text3 = await tp.file.include('[[Background/Templates/New_Week_Template.md]]');
 
-const [language,weekNumDefault] = await tp.user.languageData(dv,tp);
+const [language,weekNumDefault,languageWeekNumLocation] = await tp.user.languageData(dv,tp);
 
 const newNum = Number(weekNumDefault) + 1;
 let text ="---\n";

@@ -4,7 +4,6 @@ const [language,weekNumDefault] = await tp.user.languageData(dv,tp);
 const project = await tp.system.prompt("Name of Project:");
 tR ="---\n"
 tR += `fileClass: ${language}\n`
-tR += "Links: \n"
 tR += "---"
 -%>
 

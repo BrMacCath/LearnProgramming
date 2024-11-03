@@ -3,8 +3,10 @@ fileClass: Overview
 Links: 
 weekNum: 1
 language: Rust
+complete: false
+finalised: 
 ---
-# Script Goal
+# Script Goals
 
 Goal for this week is to get a video out and talk about things I find interesting.
 

@@ -15,15 +15,14 @@ if(script.DraftNum ==1){
 	console.log(5);
 	const paragraphs = await tp.user.convertRewriteToParagraphs(dv,tp,script, paragraphSeparator,draftChoices);
 	// Here I will make the complete Draft
-	text += `\n\n## Complete ${draftChoices[script.DraftNum-1]} Draft\n\n` + paragraphs.join("\n\n");
+	text += `\n\n## Complete ${draftChoices[script.DraftNum-1]} Draft\n\n` + paragraphs.join(".\n\n");
 	
-
 	// Now we will add the next Draft
 	text += `\n\n# ${draftChoices[script.DraftNum]} Draft\n\n`;
 	text = text.replace(`DraftNum: ${script.DraftNum}`,`DraftNum: ${script.DraftNum+1}`);
 	paragraphs.forEach((paragraph) => {
 		const sentences = paragraph.split(".");
-		text += sentences.join("\n> \n\n")+ "\n> \n\n"+ paragraphSeparator;
+		text += sentences.join(".\n> \n\n")+ "\n> \n\n"+ paragraphSeparator;
 	} 
 	)
 

@@ -1,6 +1,5 @@
 ---
 fileClass: Rust
-Links: 
 Purpose: Data Type
 ---
 # Purpose

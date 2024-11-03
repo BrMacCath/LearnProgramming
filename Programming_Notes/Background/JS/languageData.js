@@ -10,6 +10,6 @@ async function my_function(dv, tp) {
   );
   const languageWeekNumLocation = `Background/Choices/${language}WeekNum.md`;
   const weekNum = Number(await dv.io.load(languageWeekNumLocation));
-  return [language, weekNum];
+  return [language, weekNum, languageWeekNumLocation];
 }
 module.exports = my_function;

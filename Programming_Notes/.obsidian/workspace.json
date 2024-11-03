@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Finish_Draft_Template.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finish_Draft_Template"
+              "title": "Home"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Finish_Draft_Template.md"
+                "file": "Home.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Finish_Draft_Template"
+              "title": "Outline of Home"
             }
           }
         ],
@@ -169,42 +169,43 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Templates/Finish_Draft_Template.md",
-    "Templates/New_Paragraph_Template.md",
-    "Templates/New_Week_Template.md",
-    "Templates/Programming_Template.md",
-    "Templates/Project_Template.md",
-    "Templates/Script_Task_Template.md",
+    "Scripts/Week_2 Rust/Scripts/Intro Control Flow script(Rust).md",
     "Templates/Script_Template.md",
-    "Background/Templates/UpdateWelcome.md",
-    "Background/Templates/UpdateWeek.md",
-    "Background/Templates/WelcomeStart.md",
-    "Background/Templates/New_Week_Template.md",
-    "Background/Templates/PublishPrepTemplate.md",
-    "Background/Templates/UpdateTasks.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/Edit Video for Week 1.md",
-    "Scripts/Week_1 Rust/Tasks/NotFinished/Record Week 1 Scripts.md",
-    "Scripts/Week_1 Rust/Tasks/Complete/Write Motivation Script.md",
-    "Scripts/Week_1 Rust/Tasks/Complete/Write first script about Rustc.md",
-    "Scripts/Week_1 Rust/Tasks/Complete/Write about guessing game.md",
-    "Scripts/Week_1 Rust/Tasks/Complete/Write first script about Cargo.md",
-    "Scripts/Week_1 Rust/Scripts/Cargo Initial Description(Rust).md",
+    "Scripts/Week_2 Rust/Scripts/Function Structure(Rust).md",
+    "Scripts/Week_2 Rust/Scripts/Compounding data types(Rust).md",
+    "Scripts/Week_2 Rust/Scripts/Mutability of Variables(Rust).md",
+    "Scripts/Week_2 Rust/Scripts/Weekly Speal(Rust).md",
+    "Untitled.md",
+    "Scripts/Week_2 Rust/Week_2 Rust Publish.md",
     "Home.md",
-    "Welcome.md",
-    "Scripts/Week_1 Rust/Scripts/Guessing game Interpretation(Rust).md",
-    "Scripts/Week_1 Rust/Scripts/Motivation for Layout of Rust Course(Rust).md",
-    "Scripts/Week_1 Rust/Scripts/Rustc Description(Rust).md",
+    "Untitleddd.md",
+    "Background/Templates/PublishPrepTemplate.md",
+    "Untitleddd3.md",
+    "Untitleddd2.md",
+    "Untitleddd1.md",
+    "Scripts/Week_2 Rust/Tasks/Complete/Write speal for channel.md",
+    "Background/Choices/TaskChoices.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Speal Video.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Make animation for different sized integer bits.md",
+    "Class/Task.md",
+    "Scripts/Week_2 Rust/Week_2 Rust(Rust).md",
+    "Background/Choices/TaskStatusChoices.md",
+    "Background/Choices/RustWeekNum.md",
+    "Background/Choices/PythonWeekNum.md",
+    "Background/Choices/PurposeChoices.md",
+    "Background/Choices/ProgrammingChoices.md",
+    "Background/Choices/DraftNumChoices.md",
+    "Scripts/Week_2 Rust/Tasks/Complete",
+    "Scripts/Week_2 Rust/Tasks/NotFinished",
+    "Scripts/Week_2 Rust/Tasks",
+    "Scripts/Week_2 Rust/Week_2 Rust.canvas",
+    "Scripts/Week_1 Rust/Week_1 Rust.canvas",
+    "Scripts/Week_3 Rust",
+    "Scripts/Week_2 Rust/Scripts",
+    "Scripts/Week_2 Rust",
+    "Background/JS/stringifyNumber.js",
     "Background/JS/convertFirstDraft.js",
     "Background/JS/convertFirstDraft",
-    "Background/JS/finishScriptMetadata.js",
-    "Background/JS/scriptData.js",
-    "Background/JS/convertRewriteToParagraphs.js",
-    "Background/JS/languageData copy.js",
-    "Background/JS/convertDraftToParagraphs.js",
-    "Background/JS/taskData.js",
-    "Background/JS/taskDatea.js",
-    "Background/JS/languageData.js",
-    "Scripts/Week_1 Rust/Week_1 Rust.canvas"
+    "Background/JS/finishScriptMetadata.js"
   ]
 }

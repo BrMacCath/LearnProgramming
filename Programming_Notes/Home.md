@@ -10,9 +10,9 @@ const {fieldModifier: f} = this.app.plugins.plugins["metadata-menu"].api;
 
   
 
-dv.table(["Project", "Task Type", "Priority", "Checked"],
+dv.table(["Project", "Task Type", "Priority", "Checked", "Task File"],
 
-await Promise.all(dv.pages('"Scripts/Week_1 Rust/Tasks"').where(p =>(p.taskStatus != "Done")).map(async p => [
+await Promise.all(dv.pages('"Scripts"').where(p =>(p.fileClass == "Task" && p.taskStatus != "Done")).map(async p => [
 
     p.file.link,
 
@@ -47,6 +47,5 @@ FROM "Rust/Projects"
 SORT file.mtime desc
 LIMIT 5
 ```
-
 
 

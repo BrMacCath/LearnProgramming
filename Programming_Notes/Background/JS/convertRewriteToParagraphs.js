@@ -10,6 +10,17 @@ async function my_function(dv, tp, script, paragraphSeparator, draftChoices) {
   sections.forEach((section) => {
     let sentences = section.split("\n").filter((t) => t[0] == ">");
     sentences = sentences.map((sentence) => sentence.slice(2));
+    sentences = sentences.filter((sentence) => sentence != "");
+    sentences = sentences.map((sentence) => {
+      if (sentence.slice(-1) == ".") {
+        console.log(sentence);
+        console.log(sentence.slice(0, -1));
+        return sentence.slice(0, -1);
+      } else {
+        return sentence;
+      }
+    });
+    console.log(sentences);
     paragraphs.push(sentences.join(". "));
   });
   return paragraphs;

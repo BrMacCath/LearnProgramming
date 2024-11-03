@@ -14,14 +14,13 @@ const topic = await tp.system.prompt("Name of Topic:");
 tR ="---\n"
 tR += `fileClass: ${language}\n`
 tR += `Purpose: ${purpose}\n`
-tR += "Links: \n"
 tR += "---"
 -%>
 
 # Purpose
 
 
-# Links
+
 
 
 [[Style(<%language %>)|Style]]

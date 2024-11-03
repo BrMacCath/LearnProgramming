@@ -3,8 +3,10 @@ fileClass: Overview
 Links: 
 weekNum: 1
 language: Rust
+complete: false
+finalised: 
 ---
-# Script Goal
+# Script Goals
 
 Goal for this week is to get a video out and talk about things I find interesting.
 
@@ -33,22 +35,17 @@ graph TB
 | [[Scripts/Week_1 Rust/Tasks/NotFinished/Edit Video for Week 1.md\|Edit Video for Week 1]] | Making Progress | 2024-10-14 |
 
 
-| Recording-Task                                                                            | Status          | Due-Date   |
-| ----------------------------------------------------------------------------------------- | --------------- | ---------- |
-| [[Scripts/Week_1 Rust/Tasks/NotFinished/Record Week 1 Scripts.md\|Record Week 1 Scripts]] | Making Progress | 2024-10-14 |
-
-
 | Finished-Task                                                                                            | Status | Task-Type |
 | -------------------------------------------------------------------------------------------------------- | ------ | --------- |
 | [[Scripts/Week_1 Rust/Tasks/Complete/Write Motivation Script.md\|Write Motivation Script]]               | Done   | Script    |
 | [[Scripts/Week_1 Rust/Tasks/Complete/Write first script about Rustc.md\|Write first script about Rustc]] | Done   | Script    |
 | [[Scripts/Week_1 Rust/Tasks/Complete/Write first script about Cargo.md\|Write first script about Cargo]] | Done   | Script    |
 | [[Scripts/Week_1 Rust/Tasks/Complete/Write about guessing game.md\|Write about guessing game]]           | Done   | Script    |
+| [[Scripts/Week_1 Rust/Tasks/Complete/Record Week 1 Scripts.md\|Record Week 1 Scripts]]                   | Done   | Recording |
 
 
 # Final Draft
 
-This section is incomplete
 
 
 
