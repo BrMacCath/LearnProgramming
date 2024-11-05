@@ -1,6 +1,5 @@
 ---
 fileClass: Rust
-Links: 
 Purpose: Control Flow
 ---
 # Purpose
@@ -20,6 +19,21 @@ if 3{
 }
 ```
 The above line will fail as it is not a boolean type put into the condition.
+
+## Creating data with variables.
+
+We can create variables based off certain conditions. We can say let variable_name = conditions.
+
+```Rust
+const even = true;
+let Number = if(even){4} else{5}
+```
+
+One restriction on this is that you need the same data type. 
+
+## Else if
+
+
 # Links
 
 

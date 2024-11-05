@@ -17,6 +17,9 @@ fn main(){
 }
 ```
 
+## Crates
+
+Can have comments on crates too. The difference is that these are triple forward slashes.
 # Links
 
 [[Style(Rust)|Style]]
