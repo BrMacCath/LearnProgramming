@@ -55,6 +55,7 @@ langs.forEach( async (language) =>   {
 		const filename = `Scripts/Week_${i} ${language}/Week_${i} ${language} Publish.md`;
 		
 		const weekCheckFinalised = await dv.io.load(filename); 
+		console.log(weekCheckFinalised)
 		if (weekCheckFinalised.finalised){
 			continue;
 		}
@@ -123,7 +124,7 @@ langs.forEach( async (language) =>   {
 
 		await Promise.all(ordered_scripts.map(async (script)=>
 		{
-			
+			//text += tp.user.finalDraftText(script)
 			if(script.ScriptStatus != "Done"){
 				text += `The script: [[${script.file.name}]] is incomplete.\n`;
 				return;

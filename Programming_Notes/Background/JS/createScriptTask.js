@@ -7,7 +7,7 @@ async function my_function(dv, tp, script, weekNum, dueDate, language) {
   scriptData += `taskType: Script\n`;
   scriptData += `due_date: ${dueDate}\n`;
   scriptData += `---\n`;
-  scriptData += `\n\n# Task\n- Write script for [[${script}(${language})|${script}]] #Script`;
+  scriptData += `\n\n# Task\n- [ ] Write script for [[${script}(${language})|${script}]] #Script`;
   console.log(scriptData);
   console.log(scriptLocation);
   return await tp.file.create_new(scriptData, scriptLocation);
