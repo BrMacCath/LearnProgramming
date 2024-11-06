@@ -4,8 +4,8 @@ use rand::Rng;
 
 fn main(){
     println!("Guess the number!");
-    // Get a secret number.
-
+    
+    // Create a secret number.
     let secret_number = rand::thread_rng().gen_range(1..=100);
 
     
