@@ -29,20 +29,20 @@ finalised:
 | Script-Task                                                                                                                   | Status          | Due-Date   |
 | ----------------------------------------------------------------------------------------------------------------------------- | --------------- | ---------- |
 | [[Scripts/Week_2 Rust/Tasks/NotFinished/Write Script for Compounding Data Types.md\|Write Script for Compounding Data Types]] | Making Progress | 11-04-2024 |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Fix Script Template File.md\|Fix Script Template File]]                               | Not Started     | 11-11-2024 |
 
 
 | Finished-Task                                                                                                | Status | Task-Type |
 | ------------------------------------------------------------------------------------------------------------ | ------ | --------- |
 | [[Scripts/Week_2 Rust/Tasks/Complete/Write speal for channel.md\|Write speal for channel]]                   | Done   | Script    |
 | [[Scripts/Week_2 Rust/Tasks/Complete/Finish writing mutability script.md\|Finish writing mutability script]] | Done   | Script    |
-|                                                                                                              |        |           |
 
 
 # Final Draft
 
-The script: [[Intro Control Flow script(Rust)]] is incomplete.
 The script: [[Function Structure(Rust)]] is incomplete.
 The script: [[Compounding data types(Rust)]] is incomplete.
+The script: [[Intro Control Flow script(Rust)]] is incomplete.
 
 
 Let's examine a new data type called const. It is an immutable data type that has certain restrictions. We declare it using upper case letters. We still have underscores between words. There are restrictions on how we can create them. We cannot use data that is built during the runtime of our program. The data must be constant data.  We can still use expressions on the constant data to create these variables. The list of constrains are listed in Chapter 17 of the Rust book.  Const is used for global variables, variables we can access in any scope. It is recommended to store your global variables in one place by the Rust book. I remember hearing issues about Toyota's cars having too many global variables.  They had over 10,000 global variables stored in the software and people couldn't figure out what was causing issues. I read a couple of places on the internet and the recommended maximum number of global variables was 10. . We will now talk about different methods variables can appear from instead of being created.
