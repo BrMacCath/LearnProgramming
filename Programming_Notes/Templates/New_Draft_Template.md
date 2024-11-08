@@ -32,4 +32,6 @@ if(script.DraftNum ==1){
 
 
 	}
+
+
 %>

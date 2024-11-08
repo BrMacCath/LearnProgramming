@@ -10,12 +10,8 @@ tR += "---"
 # Purpose
 
 
-# Links
+# Programming features used
 
-[[main(Rust)|main]]
-[[Macro(Rust)|Macro]]
-[[Ending Sentences(Rust)|Ending Sentences]]
-[[Style(Rust)|Style]]
 
 
 <%tp.file.move(`${language}/Projects/${project}/${project}(${language})`)%>
