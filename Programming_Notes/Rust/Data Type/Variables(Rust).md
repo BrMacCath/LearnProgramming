@@ -1,6 +1,5 @@
 ---
 fileClass: Rust
-Links: 
 Purpose: Data Type
 ---
 # Purpose
@@ -20,3 +19,7 @@ let mut num = 4;
 ```
 
 
+
+# Links
+
+[[Data Type(Rust)|Data Type]]

@@ -12,12 +12,9 @@ I now understand what I misunderstood (I hope). You can't have a situation like 
 const BAD_EXAMPLE = current_time - 2;
 ```
 as this would require current data to compute. The only data you can have is fixed (look up terminology) data.
+
 # Links
 
-[[main(Rust)|main]]
-[[Macro(Rust)|Macro]]
-[[Ending Sentences(Rust)|Ending Sentences]]
-[[Style(Rust)|Style]]
-
+[[Data Type(Rust)|Data Type]]
 
 

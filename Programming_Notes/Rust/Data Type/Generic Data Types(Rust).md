@@ -1,13 +1,16 @@
 ---
 fileClass: Rust
-Links: 
 Purpose: Data Type
 ---
 # Purpose
 
-To use strings we need to use Strings::new() 
+This is a standin for the moment. I will be going over this shortly
+
 
 
 # Links
 
 [[Data Type(Rust)|Data Type]]
+
+
+

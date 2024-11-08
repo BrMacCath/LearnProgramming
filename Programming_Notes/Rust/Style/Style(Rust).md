@@ -1,7 +1,6 @@
 ---
 fileClass: Rust
-Links: 
-Purpose: Stylistic
+Purpose: Style
 ---
 # Purpose
 

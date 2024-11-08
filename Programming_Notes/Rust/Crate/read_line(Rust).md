@@ -1,10 +1,10 @@
 ---
 fileClass: Rust
 Links: 
-Purpose: Stylistic
+Purpose: Crate
 ---
 # Purpose
-This is where we use _  between words and all the words are lower case. It is used in Rust to denote functions.
+This is found in std::io and is used to add string to the end of another string.
 
 # Links
 

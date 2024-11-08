@@ -20,9 +20,8 @@ In the book it is noted that with [[Statements(Rust)|statements]] we cannot use 
 let y = (let x = 3);
 ```
 will give a compliler issue due to the fact that let x =3 does not return anything. I know you can do this in other languages but I can see this allowing for mistakes.
+
 # Links
 
-[[Style(Rust)|Style]]
-
-
+[[Data Type(Rust)|Data Type]]
 

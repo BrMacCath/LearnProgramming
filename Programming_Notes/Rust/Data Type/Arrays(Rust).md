@@ -1,7 +1,7 @@
 ---
 fileClass: Rust
 Links:
-Purpose: Control Flow
+Purpose: Data Type
 ---
 # Purpose
 This is to have a list on a computer of a set length. It is also a [[Compound types(Rust)|compound type]] like [[Tuples(Rust)|tuples]]. There are multiple ways to initialize them. That we will proceed through in this note. One issue is that the size of these arrays don't change. I am curious how rust deals with that? [[Shadowing(Rust)|Shadowing]], perhaps?
@@ -26,4 +26,6 @@ This will create an array of 5 elements consisting of threes. One question I had
 Rust does not let you exceed the bounds of an array as a given. I have seen that this can be an issue in other languages such as C.
 
 
+# Links
 
+[[Data Type(Rust)|Data Type]]

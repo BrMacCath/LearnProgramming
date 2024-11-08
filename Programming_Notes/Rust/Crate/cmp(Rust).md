@@ -1,7 +1,7 @@
 ---
 fileClass: Rust
 Links: 
-Purpose: Library
+Purpose: Crate
 ---
 # Purpose
 The goal of this package is to give you a method to compare things.

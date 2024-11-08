@@ -1,7 +1,7 @@
 ---
 fileClass: Rust
 Links: 
-Purpose: Stylistic
+Purpose: Style
 ---
 # Purpose
 These allow you to insert variables into strings.

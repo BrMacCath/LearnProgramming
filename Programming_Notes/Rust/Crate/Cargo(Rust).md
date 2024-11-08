@@ -1,7 +1,7 @@
 ---
 fileClass: Rust
 Links: 
-Purpose: Library
+Purpose: Crate
 ---
 # Purpose
 

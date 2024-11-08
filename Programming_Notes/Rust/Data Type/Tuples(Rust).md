@@ -13,12 +13,9 @@ let first_param = example.0;
 let second_param = example.1;
 ```
 
+
 # Links
 
-[[main(Rust)|main]]
-[[Macro(Rust)|Macro]]
-[[Ending Sentences(Rust)|Ending Sentences]]
-[[Style(Rust)|Style]]
-
+[[Data Type(Rust)|Data Type]]
 
 

@@ -10,10 +10,10 @@ These are lines to perform an action but not return a value. For example assigni
 let a = 5;
 ```
 
+
 # Links
 
-[[main(Rust)|main]]
-[[Macro(Rust)|Macro]]
+[[Data Type(Rust)|Data Type]]
 [[Ending Sentences(Rust)|Ending Sentences]]
 [[Style(Rust)|Style]]
 

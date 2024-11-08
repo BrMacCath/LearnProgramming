@@ -1,6 +1,7 @@
 ---
 fileClass: Rust
 Links: 
+Purpose: Crate
 ---
 # Purpose
 This package can be used to generate random numbers.
