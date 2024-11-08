@@ -23,7 +23,8 @@ tR += "---"
 
 
 
-[[Style(<%language %>)|Style]]
+# Links
+[[<% purpose %>(<% language %>)|<% purpose %>]]
 
 
 <%tp.file.move(`${language}/${purpose}/${topic}(${language})`)%>

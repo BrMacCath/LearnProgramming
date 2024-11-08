@@ -20,6 +20,4 @@ tR+= `---\n`
 - [ ] <% task %> #Script 
 
 
-<%*
-const this_tFile = tp.file.find_tfile(this.file.name); 
-tp.file.move(`Scripts/Week_${weekNum} ${language}/Tasks/NotFinished/${task}`) %> 
+<% tp.file.move(`Scripts/Week_${weekNum} ${language}/Tasks/NotFinished/${task}`) %> 
