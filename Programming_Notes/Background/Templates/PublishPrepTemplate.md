@@ -54,12 +54,12 @@ langs.forEach( async (language) =>   {
 	for(let i = 1; i <weekNum+1;i++){
 		const filename = `Scripts/Week_${i} ${language}/Week_${i} ${language} Publish.md`;
 		
-		const weekCheckFinalised = await dv.io.load(filename); 
-		console.log(weekCheckFinalised)
-		if (weekCheckFinalised.finalised){
+		const weekCheckFinalised = await dv.page(filename).file.frontmatter.finalised; 
+
+		if (weekCheckFinalised){
 			continue;
 		}
-				
+		console.log(`${i}`);
 		let folder =`Scripts/Week_${i} ${language}/Tasks`;
 		const query = `TABLE WITHOUT ID
 		file.link AS Note
@@ -147,7 +147,7 @@ langs.forEach( async (language) =>   {
 	
 	// This is to figure out what week we are working with.
 	
-	welcomeText = welcomeText + `\n\n# ${language} Script this week\n\n[[Week_${weekNum} ${language} Publish| Week ${weekNum} in ${language}]]\n\n![[Week_${weekNum} ${language} Publish#Script Goald]] `;
+	welcomeText = welcomeText + `\n\n# ${language} Script this week\n\n[[Week_${weekNum} ${language} Publish| Week ${weekNum} in ${language}]]\n\n![[Week_${weekNum} ${language} Publish#Script Goals]] `;
 	
 	await app.vault.modify(tFileWelcome, welcomeText);
 	// Here for each week we want to look at the 

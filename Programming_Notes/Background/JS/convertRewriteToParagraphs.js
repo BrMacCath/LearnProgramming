@@ -21,7 +21,7 @@ async function my_function(dv, tp, script, paragraphSeparator, draftChoices) {
       }
     });
     console.log(sentences);
-    paragraphs.push(sentences.join(". "));
+    paragraphs.push(sentences.join(". ") + ".");
   });
   return paragraphs;
 }
