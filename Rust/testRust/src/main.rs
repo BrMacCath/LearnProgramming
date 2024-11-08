@@ -23,6 +23,12 @@ fn main() {
     let t = s;
     println!("{t}");
     println!("{s}");
+    test_fun3(4);
+    
+    let a = ( [3,2], "s");
+    println!("{0}",a.0[0]);
+    let b = [ (4,"r"), (2,"s")  ];
+    println!("{0}",b[0].0);
 }
 
 
@@ -32,4 +38,7 @@ fn test_fun() -> i32{
 
 fn test_fun2() -> (i32,i32){
     return (5,5);
+}
+fn test_fun3(x:i32){
+    println!("{x}");
 }
