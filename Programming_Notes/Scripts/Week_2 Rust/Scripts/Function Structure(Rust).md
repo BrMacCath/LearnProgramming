@@ -1,10 +1,10 @@
 ---
 fileClass: Script
-ScriptStatus: Making Progress
+ScriptStatus: Done
 ParagraphNum: 1
 due_date: 11-04-2024
 DraftNum: 2
-complete: false
+complete: true
 SectionNum: 
 ---
 # Script Goal
@@ -48,14 +48,11 @@ As part of my future plan is to build a website with Rust I was wondering about 
 Functions are denoted by fn in Rust.
 > Functions are denoted by fn in Rust.
 
- They follow the mathematical method of denoting functions in that they go function_name: Inputs ->outputs.
-> They follow the mathematical declaration of functions : function_name: Inputs ->outputs.
+ They follow the mathematical method of denoting functions in that they go function_name: (Inputs) ->outputs.
+> They follow the mathematical declaration of functions : function_name: Inputs ->outputs. Albeit with parentheses around the inputs.
 
  When there are not inputs or outputs, the respective piece id dropped.
-> If there are no inputs, the input piece is dropped. If there are no outputs, the output piece is dropped.
-
-  If there are neither, the arrow is dropped too.
-> When both are removed, the arrow is dropped too.
+> If there are no inputs, the input piece is dropped. If there are no outputs, the output piece is dropped along with the arrow.
 
  The purpose of the function takes place within curly parentheses.
 > The action of the function occurs within a pair of curly parenthesis.
@@ -89,3 +86,14 @@ As part of my future plan is to build a website with Rust I was wondering about 
 
 ---
 
+
+
+
+
+# Final Draft
+
+Functions are denoted by fn in Rust. They follow the mathematical declaration of functions : function_name: Inputs ->outputs. Albeit with parentheses around the inputs. If there are no inputs, the input piece is dropped. If there are no outputs, the output piece is dropped along with the arrow. The action of the function occurs within a pair of curly parenthesis. A feature that struck me as odd is that if the last line does not have a semi-colon on it, it is treated as a return value. I don't know why this is done.
+
+One of my goals with Rust is to build a website with it. To do so, I investigated whether asynchronous functions exist in Rust too as they are fundamental for web development. Rust asynchronous functions with similar notation to JavaScript! To make a function asynchronous, we put async before fn. On this note, I wondered if promise all appeared in Rust. This is used to deal with asynchronous functions is JavaScript. There seems to be a macro called join which takes its place. When I understand macros more I will take another look.
+
+.

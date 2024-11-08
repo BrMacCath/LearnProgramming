@@ -12,7 +12,7 @@ const {fieldModifier: f} = this.app.plugins.plugins["metadata-menu"].api;
 
 dv.table(["Project", "Task Type", "Priority", "Checked", "Task File"],
 
-await Promise.all(dv.pages('"Scripts"').where(p =>(p.fileClass == "Task" && p.taskStatus != "Done")).map(async p => [
+await Promise.all(dv.pages('"Scripts"').where(p =>(p.fileClass == "Task" && p.taskStatus != "Done")).sort(p => p.taskType).map(async p => [
 
     p.file.link,
 

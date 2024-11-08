@@ -3,8 +3,8 @@ fileClass: Overview
 Links: 
 weekNum: 1
 language: Rust
-complete: false
-finalised: 
+complete: true
+finalised: "true"
 ---
 # Script Goals
 

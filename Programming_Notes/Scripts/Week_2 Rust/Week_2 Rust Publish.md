@@ -20,29 +20,54 @@ finalised:
 | [[Scripts/Week_2 Rust/Tasks/NotFinished/Make animation for different sized integer bits.md\|Make animation for different sized integer bits]] | Making Progress | 11-04-2024 |
 
 
-| Recording-Task                                                                                      | Status      | Due-Date   |
-| --------------------------------------------------------------------------------------------------- | ----------- | ---------- |
-| [[Scripts/Week_2 Rust/Tasks/NotFinished/Record Video for mutabiity.md\|Record Video for mutabiity]] | Not Started | 11-04-2024 |
-| [[Scripts/Week_2 Rust/Tasks/NotFinished/Record Speal Video.md\|Record Speal Video]]                 | Not Started | 11-04-2024 |
+| Recording-Task                                                                                                  | Status      | Due-Date   |
+| --------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Record Video for mutabiity.md\|Record Video for mutabiity]]             | Not Started | 11-04-2024 |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Record Speal Video.md\|Record Speal Video]]                             | Not Started | 11-04-2024 |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Record Outro Speal Video.md.md\|Record Outro Speal Video.md]]           | Not Started | 11-11-2024 |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Record Intro Control Flow Script.md\|Record Intro Control Flow Script]] | Not Started | 11-11-2024 |
 
 
-| Script-Task                                                                                                                   | Status          | Due-Date   |
-| ----------------------------------------------------------------------------------------------------------------------------- | --------------- | ---------- |
-| [[Scripts/Week_2 Rust/Tasks/NotFinished/Write Script for Compounding Data Types.md\|Write Script for Compounding Data Types]] | Making Progress | 11-04-2024 |
-| [[Scripts/Week_2 Rust/Tasks/NotFinished/Fix Script Template File.md\|Fix Script Template File]]                               | Not Started     | 11-11-2024 |
+| Script-Task                                                                                                   | Status      | Due-Date   |
+| ------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Write Intro Control Flow Script.md\|Write Intro Control Flow Script]] | Not Started | 11-11-2024 |
 
 
-| Finished-Task                                                                                                | Status | Task-Type |
-| ------------------------------------------------------------------------------------------------------------ | ------ | --------- |
-| [[Scripts/Week_2 Rust/Tasks/Complete/Write speal for channel.md\|Write speal for channel]]                   | Done   | Script    |
-| [[Scripts/Week_2 Rust/Tasks/Complete/Finish writing mutability script.md\|Finish writing mutability script]] | Done   | Script    |
+| Finished-Task                                                                                                              | Status | Task-Type |
+| -------------------------------------------------------------------------------------------------------------------------- | ------ | --------- |
+| [[Scripts/Week_2 Rust/Tasks/Complete/Write speal for channel.md\|Write speal for channel]]                                 | Done   | Script    |
+| [[Scripts/Week_2 Rust/Tasks/Complete/Write script for Outro Speal.md.md\|Write script for Outro Speal.md]]                 | Done   | Script    |
+| [[Scripts/Week_2 Rust/Tasks/Complete/Write Script for Compounding Data Types.md\|Write Script for Compounding Data Types]] | Done   | Script    |
+| [[Scripts/Week_2 Rust/Tasks/Complete/Fix Script Template File.md\|Fix Script Template File]]                               | Done   | Script    |
+| [[Scripts/Week_2 Rust/Tasks/Complete/Finish writing mutability script.md\|Finish writing mutability script]]               | Done   | Script    |
 
 
 # Final Draft
 
-The script: [[Function Structure(Rust)]] is incomplete.
-The script: [[Compounding data types(Rust)]] is incomplete.
 The script: [[Intro Control Flow script(Rust)]] is incomplete.
+
+
+We will now study changing properties of the data types we are studying. Then we will focus on different methods of combining data types. We will start with the foundation of data types, scalar types. These are integers, floating-point numbers, Booleans and characters. Let's examine integers first. We can have signed or unsigned integers. Signed integers are denoted with i, unsigned integers with u. Then we can alter how many bits we wish to assign for our data. We put the number beside the type we wish to use. The book mentions allocate 8,16,32,64 or 128 bits. This allows us to reduce or add data for specific cases. There is a special case called size. This allocates the number of bits the architecture of your software is using. I will avoid that for now. An example is a grade for a course. A negative number does not make sense for this so we can use unsigned numbers. As the largest number is 100, we can use the smallest data size, 8, to store this. We assign our data type using the convection data_name: data_type. Our grade example would then be: u8.
+
+Let's examine the rest of the scalar types. While floating point numbers don't have an unsigned option, we can change the number of bits we assign to it. Booleans are just true or false as is usually the case. The are denoted as bool. Lastly, we have characters. They are denoted as char. They are single letters between single quotes. I did notice rust uses  a structure for strings. Reflecting on this, I think this happens with JavaScript as well as you can use methods on them.
+
+To take advantage of data types, we often combine them together. These types are called compound types. There are two compound types in Rust, Tuples and arrays. They have their advantages and disadvantages. Let's start with Tuples. Tuples can be any combination of any data. This can vary in both number and order. This data type is incredibly flexible. Tuples are declared using round parentheses. Inside the parentheses you can write in the types you want. . We access particular elements by writing the name of the tuple, full stop, the element number. The book mentions a tuple without any value has a special name called [[Unit(Rust)|unit]]. Looking at the documentation, it is mentioned that this is often used implicitly in functions. Functions without -> output_type have a unit output. .
+
+The structure of arrays is similar to that of arrays in other languages. The entries are all the same data type. A lot of the syntax is similar to the syntax for arrays in Python. We use square parentheses for arrays. We can declare the type of array by assigning it in one line. Otherwise we can declare its structure within square parentheses. We have two entries to declare the type of array we have. The first entry is the type each element of the array will be. The second entry is to state how many entries we will have. The entries are separated by a ;. The book emphasizes that you cannot access elements outside the bounds of the array. This is also true for tuples.
+
+Let's compare these two compound data types. When deciding which to chose, I think the deciding factor is flexibility of data types while trying to be as inflexible as possible. . Flexibility at first seemed like an advantage to me but I can see a lot of drawbacks after thinking about it. The more structure your object has, the more functions you can build upon them. As tuples have no structure between its elements, you have to explicitly state the data type of each entry. If we have 100 entries, that would be tedious. Furthermore, with arrays there can be a map method. In Rust it is a try_map method. Looking at Rust's documentation, I could not find an equivalent for tuples. I can see why it may not be able to exist too. The map method requires a function and functions require you to state the data type of your inputs. The purpose of tuples is that you don't have a restricted data type. In my opinion, this makes tuples less natural to use for functions as you do not know what the data type of the input is. . Perhaps there are ways to get around this by using [[Enum(Rust)|enum]] which allows you to group types together. However, to me, this seems like I would use an array with this enum. . To me, it seems like tuples should be used when necessary and arrays should be the default.
+
+A question I had was could I combine arrays and tuples?. I know they combine in other languages. To check, I build code to see if it worked. You absolutely can. One aspect that caught me off guard is that you have to switch your method of accessing elements. As array elements are accessed using square parentheses and tuples are accessed using periods, you will need to be careful about the order of using them. In hindsight, maybe this is obvious but I didn't think about it when first trying to build it.
+
+
+Thank ye for watching! There is a discord link below as well as a Twitter.  If you wish to examine either notes or scripts, the Obsidian publish is attached too! You can see scripts and plans for the next video there.  My GitHub is linked below too. Looking forward to seeing ye next week!
+
+
+Functions are denoted by fn in Rust. They follow the mathematical declaration of functions : function_name: Inputs ->outputs. Albeit with parentheses around the inputs. If there are no inputs, the input piece is dropped. If there are no outputs, the output piece is dropped along with the arrow. The action of the function occurs within a pair of curly parenthesis. A feature that struck me as odd is that if the last line does not have a semi-colon on it, it is treated as a return value. I don't know why this is done.
+
+One of my goals with Rust is to build a website with it. To do so, I investigated whether asynchronous functions exist in Rust too as they are fundamental for web development. Rust asynchronous functions with similar notation to JavaScript! To make a function asynchronous, we put async before fn. On this note, I wondered if promise all appeared in Rust. This is used to deal with asynchronous functions is JavaScript. There seems to be a macro called join which takes its place. When I understand macros more I will take another look.
+
+.
 
 
 Let's examine a new data type called const. It is an immutable data type that has certain restrictions. We declare it using upper case letters. We still have underscores between words. There are restrictions on how we can create them. We cannot use data that is built during the runtime of our program. The data must be constant data.  We can still use expressions on the constant data to create these variables. The list of constrains are listed in Chapter 17 of the Rust book.  Const is used for global variables, variables we can access in any scope. It is recommended to store your global variables in one place by the Rust book. I remember hearing issues about Toyota's cars having too many global variables.  They had over 10,000 global variables stored in the software and people couldn't figure out what was causing issues. I read a couple of places on the internet and the recommended maximum number of global variables was 10. . We will now talk about different methods variables can appear from instead of being created.
