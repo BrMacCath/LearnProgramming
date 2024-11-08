@@ -31,32 +31,38 @@ Topic: How tp can be effected.
 In Obsidian templater we get access to tp automatically. An issue I have is that I don't know what this object really is? I assume it is an object in programming and there are methods attached to it but I could be completely wrong. My misunderstanding cost me a lot of time as when creating new files with tp, it effects the note you are currently on in ways I don't understand. I will have to look into this.
 
 ---
-Topic: The versatility of apis in obsidian templater.
+Topic: The versatility of APIs in obsidian templater.
 
-The range of plugins for Obisidian is one of its main selling points. There are ranges of helpful tools such as Kanaban, dataview, templater, etc that people can find useful. One thing I completely underestimated was the utility of apis interacting with each other. Using dataview and meta-edit you can create interactive tables that automatically update your files. 
+The range of plugins for Obsidian is one of its main selling points. There are ranges of helpful tools such as Kanaban, Dataview, templater, etc that people can find useful. One thing I completely underestimated was the utility of APIs interacting with each other. Using Dataview and meta-edit you can create interactive tables that automatically update your files. 
 ## Blender
 
 Topic: Smaller sections
 
+A massive mistake I made the first time when building my first video is that I had large video sections to build the end video. I am now building smaller video sections and then stitching them together at the end.
 ## Animation
 
 Topic: For loops in Manim.
 
----
+I knew that Manim allowed for animations to be created in a programmatic way.  I knew that this allowed for small changes to be easy enough to program. One thing I did not realise was how useful for loops would be in Manim. For the script [[Compounding data types(Rust)|compounding data types]], I needed to make an animation that put a numbers beside letters one after the other. This ended up as a for loop that was a lot easier to build than I expected.
 
-Topic: The versatility of 
 
 ## Miscellaneous
 
 Topic: Drafts are amazing!
 
+English was never my strong point in secondary school and I did not try to do many drafts of my work. Honestly I regret this now as I can see how much they show the flaws in my writing. It may take me time to fix these issues but if I never even notice them I have no hope of correcting them.
+
 ---
 
 Topic: Process is key.
 
+Doing this project involves me using a lot of skills that I don't have much experience in such as video editing, 
+
 ---
 
 Topic: Automate boring.
+
+When building this project, I tried to follow some writing processes in order to improve my writing. This meant having to process a lot of sentences, examine them individually and then tie them together again at the end for each script (including this one). To do this on paper, this can be a little bit tedious but on a computer this was especially aggravating. Fortunately, as I am using Obsidian so I can make use of plugins such as templater that can add, alter and remove a lot of files. Furthermore, it became really interesting to actually automate the process.
 
 ---
 
