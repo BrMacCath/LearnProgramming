@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/3977891868_123554531_1247602266.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_1704852926_1620039248.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_2209003282_3768073723.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_1704852926_2619641967.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_2725897059_4115512268.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_1704852926_3867168197.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_674680182_3797022115.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_1704852926_3186847969.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_998652072_705804195.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_1704852926_776966490.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/ownership/1080p60/partial_movie_files/lose_and_take/2852726489_1704852926_897725338.mp4'
