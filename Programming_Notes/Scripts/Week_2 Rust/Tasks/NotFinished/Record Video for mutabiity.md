@@ -7,7 +7,7 @@ due_date: 11-04-2024
 ---
 
 # Task
-- [ ] Record Video for mutabiity #Script 
+- [ ] Record Video for [[Mutability of Variables(Rust)]]. #Script 
 
 
  

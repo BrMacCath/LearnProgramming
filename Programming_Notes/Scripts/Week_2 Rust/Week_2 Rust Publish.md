@@ -25,15 +25,17 @@ finalised:
 | [[Scripts/Week_2 Rust/Tasks/NotFinished/Record Intro Control Flow Script.md\|Record Intro Control Flow Script]]                     | Not Started | 11-11-2024 |
 
 
-| Script-Task                                                                                                                                 | Status      | Due-Date   |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
-| [[Scripts/Week_2 Rust/Tasks/NotFinished/Write script for Rules of ownership in Rust.md.md\|Write script for Rules of ownership in Rust.md]] | Not Started | 11-11-2024 |
-| [[Scripts/Week_2 Rust/Tasks/NotFinished/Write script for References and borrowing.md.md\|Write script for References and borrowing.md]]     | Not Started | 11-11-2024 |
-| [[Scripts/Week_2 Rust/Tasks/NotFinished/Write Intro Control Flow Script.md\|Write Intro Control Flow Script]]                               | Not Started | 11-11-2024 |
+| Script-Task                                                                                                                                 | Status          | Due-Date   |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ---------- |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Write script for Rules of ownership in Rust.md.md\|Write script for Rules of ownership in Rust.md]] | Making Progress | 11-11-2024 |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Write script for References and borrowing.md.md\|Write script for References and borrowing.md]]     | Not Started     | 11-11-2024 |
+| [[Scripts/Week_2 Rust/Tasks/NotFinished/Write Intro Control Flow Script.md\|Write Intro Control Flow Script]]                               | Making Progress | 11-11-2024 |
 
 
 | Finished-Task                                                                                                                              | Status | Task-Type |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------ | --------- |
+| [[Animate Transfering ownership of data\|Animate Transfering ownership of data]]                  | Done   | Animation |
+| [[Animate losing ownership of variable\|Animate losing ownership of variable]]                    | Done   | Animation |
 | [[Scripts/Week_2 Rust/Tasks/Complete/Write speal for channel.md\|Write speal for channel]]                                                 | Done   | Script    |
 | [[Scripts/Week_2 Rust/Tasks/Complete/Write script for Outro Speal.md.md\|Write script for Outro Speal.md]]                                 | Done   | Script    |
 | [[Scripts/Week_2 Rust/Tasks/Complete/Write Script for Compounding Data Types.md\|Write Script for Compounding Data Types]]                 | Done   | Script    |
@@ -62,7 +64,11 @@ Let's compare these two compound data types. When deciding which to chose, I thi
 A question I had was could I combine arrays and tuples?. I know they combine in other languages. To check, I build code to see if it worked. You absolutely can. One aspect that caught me off guard is that you have to switch your method of accessing elements. As array elements are accessed using square parentheses and tuples are accessed using periods, you will need to be careful about the order of using them. In hindsight, maybe this is obvious but I didn't think about it when first trying to build it.
 
 
-Hi All! Welcome to this channel. We have a discord if you would like to join us. There is also a website build using obsidian publish that will have all the scripts, including the rough drafts. Notes made during the week will also be put online on this website. You can also vote for new projects! In the meantime, there will be weekly YouTube videos so you are more than welcome to stick around here for a while. All the code made to use this in Rust and obsidian will be available on GitHub too.
+Functions are denoted by fn in Rust. They follow the mathematical declaration of functions : function_name: Inputs ->outputs. Albeit with parentheses around the inputs. If there are no inputs, the input piece is dropped. If there are no outputs, the output piece is dropped along with the arrow. The action of the function occurs within a pair of curly parenthesis. A feature that struck me as odd is that if the last line does not have a semi-colon on it, it is treated as a return value. I don't know why this is done.
+
+One of my goals with Rust is to build a website with it. To do so, I investigated whether asynchronous functions exist in Rust too as they are fundamental for web development. Rust asynchronous functions with similar notation to JavaScript! To make a function asynchronous, we put async before fn. On this note, I wondered if promise all appeared in Rust. This is used to deal with asynchronous functions is JavaScript. There seems to be a macro called join which takes its place. When I understand macros more I will take another look.
+
+.
 
 
 Thank ye for watching! There is a discord link below as well as a Twitter.  If you wish to examine either notes or scripts, the Obsidian publish is attached too! You can see scripts and plans for the next video there.  My GitHub is linked below too. Looking forward to seeing ye next week!
@@ -73,8 +79,4 @@ Let's examine a new data type called const. It is an immutable data type that ha
 Rust has a technique called shadowing. It allows you to reuse a variable name inside a scope without reassigning that variable name outside of that scope. This feels like a method to avoid issues with having too many names for different versions of the same data with modifications applied to it. I also wonder does this prevent some kinds of computing problems where people tend to mutate data in multiple different scenarios. If people are altering data with multiple functions, keeping track of the form of data you have could be an issue. It is better to assume that the data is always of one particular form perhaps?. To use shadowing, we say let variable name. Then we can use that name in an alternative context. My first time seeing this felt odd to me, why is this useful? To build intuition and understanding about this, I decided to google how people use this technique in practice. I found out that people use shadowing when dealing with sanitising data they receive from the internet. They still wish to retain the old data but using it could be dangerous. Rather than coming up with new names, they just shadow the old data with the sanitised new data. This prevents using multiple names for the same data. A downside could be that we have not distinguished what stage of processing the data is at from the name. Something I found interesting is that there is no restriction on data type when using shadow. If my original data type is an integer, I could shadow it with a boolean without issue. I thought there may be some restriction but it seems not. This may change later. In summary I believe the purpose of shadowing it to allow for scope related actions where we want to keep the original data
 
 
-Functions are denoted by fn in Rust. They follow the mathematical declaration of functions : function_name: Inputs ->outputs. Albeit with parentheses around the inputs. If there are no inputs, the input piece is dropped. If there are no outputs, the output piece is dropped along with the arrow. The action of the function occurs within a pair of curly parenthesis. A feature that struck me as odd is that if the last line does not have a semi-colon on it, it is treated as a return value. I don't know why this is done.
-
-One of my goals with Rust is to build a website with it. To do so, I investigated whether asynchronous functions exist in Rust too as they are fundamental for web development. Rust asynchronous functions with similar notation to JavaScript! To make a function asynchronous, we put async before fn. On this note, I wondered if promise all appeared in Rust. This is used to deal with asynchronous functions is JavaScript. There seems to be a macro called join which takes its place. When I understand macros more I will take another look.
-
-.
+Hi All! Welcome to this channel. We have a discord if you would like to join us. There is also a website build using obsidian publish that will have all the scripts, including the rough drafts. Notes made during the week will also be put online on this website. You can also vote for new projects! In the meantime, there will be weekly YouTube videos so you are more than welcome to stick around here for a while. All the code made to use this in Rust and obsidian will be available on GitHub too.
