@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/scope/1080p60/partial_movie_files/Scope/3977891868_123554531_1266296619.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/scope/1080p60/partial_movie_files/Scope/2852726489_1704852926_870723527.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/scope/1080p60/partial_movie_files/Scope/2852726489_1972929733_1579521135.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/scope/1080p60/partial_movie_files/Scope/2852726489_1704852926_1151187350.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/scope/1080p60/partial_movie_files/Scope/2852726489_25449577_1164703849.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Week_2/media/videos/scope/1080p60/partial_movie_files/Scope/2852726489_1704852926_4115719125.mp4'
