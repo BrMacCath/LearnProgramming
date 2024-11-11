@@ -11,6 +11,7 @@ tR = `---\n`
 tR += `fileClass: Task\n`
 tR += "taskStatus: Not Started\n"
 tR += `weekNum: ${weekNum}\n`
+tR += "save: false\n"
 tR += `taskType: ${taskCategory}\n`
 tR += `due_date: ${dueDate}\n`
 tR+= `---\n`

@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed5513159430479e",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scripts/Week_2 Rust/Scripts/Intro Control Flow script(Rust).md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro Control Flow script(Rust)"
+              "title": "Home"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scripts/Week_2 Rust/Scripts/Intro Control Flow script(Rust).md"
+                "file": "Home.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Intro Control Flow script(Rust)"
+              "title": "Outline of Home"
             }
           }
         ],
@@ -167,34 +167,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ed5513159430479e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Untitleddd.md",
-    "Scripts/Week_2 Rust/Scripts/Intro Control Flow script(Rust).md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Write Intro Control Flow Script.md",
+    "Untitled.md",
     "Home.md",
-    "Welcome.md",
-    "Untitleddd1.md",
-    "Rust/Crate/Use(Rust).md",
-    "Rust/Crate/toml(Rust).md",
-    "Rust/Crate/read_line(Rust).md",
-    "Rust/Crate/rand(Rust).md",
-    "Rust/Crate/Crate(Rust).md",
-    "Rust/Crate/Cargo(Rust).md",
-    "Rust/Crate/cmp(Rust).md",
-    "Templates/Programming_Template.md",
-    "Background/Choices/PurposeChoices.md",
+    "Templates/Script_Task_Template.md",
+    "Templates/Script_Template.md",
+    "Class/Task.md",
+    "Class/Script.md",
+    "Class/Rust.md",
     "Background/Choices/DraftNumChoices.md",
-    "Rust/Style/Comments(Rust).md",
-    "Rust/Style/Compling and Running(Rust).md",
-    "Rust/Style/Ending Sentences(Rust).md",
-    "Rust/Style/main(Rust).md",
-    "Rust/Style/Ownership(Rust).md",
-    "Rust/Style/Placeholders(Rust).md",
-    "Rust/Style/Shadowing(Rust).md",
-    "Rust/Style/Snake Case(Rust).md",
-    "Rust/Style/Style(Rust).md",
-    "Templates/Finish_Draft_Template.md",
+    "Background/Choices/ProgrammingChoices.md",
+    "Background/Choices/PurposeChoices.md",
+    "Background/Choices/RustWeekNum.md",
+    "Background/Choices/TaskChoices.md",
+    "Background/Choices/TaskStatusChoices.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Animate scope variable loss.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Intro Control Flow Script.md",
+    "Scripts/Week_2 Rust/Tasks/Complete/Animate Transfering ownership of data.md",
+    "Background/Trash/Untitleddd2.md",
+    "Scripts/Week_2 Rust/Tasks/Complete/Animate losing ownership of variable.md",
+    "Scripts/Week_2 Rust/Scripts/Rules of ownership in Rust(Rust).md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Rules of ownership in Rust Video.md.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Outro Speal Video.md.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Video for mutabiity.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Write script for Rules of ownership in Rust.md.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Write script for References and borrowing.md.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Write Intro Control Flow Script.md",
+    "Scripts/Week_2 Rust/Scripts/Weekly Speal(Rust).md",
+    "Background/Trash",
     "Scripts/Week_1 Rust/Week_1 Rust.canvas",
     "Background/JS/finalDraftText.js",
     "Scripts/Week_2g Rust/Scripts",
@@ -205,7 +206,6 @@
     "Scripts/Week_2 undefined/Tasks",
     "Scripts/Week_2 undefined",
     "Background/JS/createRecordTask.js",
-    "Background/JS/createScriptTask.js",
     "Scripts/Week_2 Rust/Week_2 Rust.canvas"
   ]
 }

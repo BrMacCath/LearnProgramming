@@ -31,7 +31,12 @@ fields:
       linkPath: ""
     path: ""
     id: 4FR47V
-version: "2.10"
+  - name: save
+    type: Boolean
+    options: {}
+    path: ""
+    id: PL68GU
+version: "2.11"
 limit: 20
 mapWithTag: false
 icon: package
@@ -43,6 +48,7 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - PL68GU
   - 4FR47V
   - qoFB56
   - SIGzcD

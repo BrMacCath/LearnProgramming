@@ -64,7 +64,7 @@
       "templatePath": "Background/Templates/PublishPrepTemplate.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "Untitleddd"
+        "format": "Background/Trash/Untitleddd"
       },
       "folder": {
         "enabled": false,
