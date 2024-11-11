@@ -37,6 +37,10 @@ There are three rules of ownership but they only apply to certain types of data 
 
 This seems like a regular scope strategy that occurs in many languages. When I see how it is different to languages such as Matlab, I will rewrite this.
 
+# Data races
+
+Rust has features to prevent this. Need to examine this more.
+
 # Links
 
 

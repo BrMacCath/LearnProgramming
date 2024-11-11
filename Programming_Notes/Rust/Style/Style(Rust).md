@@ -1,7 +1,3 @@
----
-fileClass: Rust
-Purpose: Style
----
 # Purpose
 
 This is to ensure that people across many different computers operate in a similar fashion to prevent bugs. 
