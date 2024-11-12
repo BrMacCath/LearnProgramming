@@ -77,12 +77,12 @@
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
-        "focus": true
+        "focus": false
       },
-      "openFile": true,
+      "openFile": false,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "setFileExistsBehavior": true
     },
     {
       "id": "e3facd95-fd32-4199-8cac-f8809a09d7e8",
@@ -110,69 +110,206 @@
       "openFile": false,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "d649e27e-2dcc-4a6c-9c15-622b1669857b",
+      "name": "New Draft",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Background/Templates/New_Draft_Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Background/Trash/Untitleddd"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "0ec0e1f3-405c-4862-b5eb-88c31069049a",
+      "name": "Finish Draft",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Background/Templates/Finish_Draft_Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Background/Trash/Untitleddd"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "802163c8-7c6a-406f-9c77-cd148078881c",
+      "name": "New Week",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Background/Templates/Create_New_Week.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Background/Trash/Untitleddd"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "fec73d2b-80cb-4899-a1eb-66903fc17320",
+      "name": "New Project",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Background/Templates/Project_Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Background/Trash/Untitleddd"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "292f6beb-f36e-42b2-b68d-e2abcab7beb3",
+      "name": "Create Script Task",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Background/Choices/Script_Task_Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Background/Trash/Untitleddd"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "a5c6a33d-6608-4537-91ff-9b5301fb9574",
+      "name": "New Script",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Background/Choices/Script_Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Background/Trash/Untitleddd"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "c7ddb591-3486-4b22-b5c7-96495b183d23",
+      "name": "Program Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Background/Templates/Programming_Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Background/Trash/Untitleddd"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
     }
   ],
-  "macros": [
-    {
-      "name": "Update Welcome",
-      "id": "66a5ea01-7028-44bc-a63d-4ac94ed9fdab",
-      "commands": [
-        {
-          "name": "Templater: Create new note from template",
-          "type": "Obsidian",
-          "id": "ffb4ecbd-18df-4bb2-81e4-aa3a696cd62a",
-          "commandId": "templater-obsidian:create-new-note-from-template"
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "498e14a4-01f1-491e-b2cb-69464a2a68f5",
-          "time": 200
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Update Tasks",
-      "id": "922cbd30-af7c-4e6c-abde-f4d7dd1ef192",
-      "commands": [
-        {
-          "name": "Templater: Create new note from template",
-          "type": "Obsidian",
-          "id": "06284444-cd49-414f-a72f-1323700442bf",
-          "commandId": "templater-obsidian:create-new-note-from-template"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Publish Prep",
-      "id": "2c91ab4f-fec8-45c8-9b6d-2122047fb68b",
-      "commands": [
-        {
-          "name": "Templater: Create new note from template",
-          "type": "Obsidian",
-          "id": "01bcbd06-2d71-4771-a40d-17865b28670e",
-          "commandId": "templater-obsidian:create-new-note-from-template"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Update Week",
-      "id": "7be92d5b-484d-443d-b217-50fedb66bf5c",
-      "commands": [
-        {
-          "name": "Templater: Create new note from template",
-          "type": "Obsidian",
-          "id": "3d4fc283-7059-4b83-8e97-380dfdff1ce0",
-          "commandId": "templater-obsidian:create-new-note-from-template"
-        }
-      ],
-      "runOnStartup": false
-    }
-  ],
+  "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Background/Templates/Programming_Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Programming_Template"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Background/Templates/Programming_Template.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of Programming_Template"
             }
           }
         ],
@@ -169,33 +169,36 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Background/Choices/Script_Template.md",
+    "Background/Trash/Untitleddd4.md",
+    "Background/Trash/Untitleddd3.md",
+    "Background/Templates/Programming_Template.md",
+    "Background/Choices/Script_Task_Template.md",
+    "Background/Templates/Project_Template.md",
+    "Background/Templates/Create_New_Week.md",
+    "Background/Templates/New_Week_Template.md",
     "Home.md",
-    "Templates/Script_Task_Template.md",
-    "Templates/Script_Template.md",
+    "Background/Trash/Untitleddd.md",
+    "Background/Trash/Untitleddd2.md",
+    "asdf.md",
+    "Background/Trash/Untitleddd1.md",
+    "Background/Trash",
+    "Scripts/Week_2 Rust/Week_2 Thoughts(Rust).md",
+    "Background/JS/Task/test.js",
+    "Background/JS/Task",
+    "Scripts/Week_2 Rust/Scripts/Mutability of Variables(Rust).md",
     "Class/Task.md",
-    "Class/Script.md",
-    "Class/Rust.md",
-    "Background/Choices/DraftNumChoices.md",
+    "Background/Choices/TaskChoices.md",
+    "Background/JS/createEditingTask.js",
+    "Background/Choices/TaskStatusChoices.md",
+    "Background/Choices/PythonWeekNum.md",
     "Background/Choices/ProgrammingChoices.md",
     "Background/Choices/PurposeChoices.md",
-    "Background/Choices/RustWeekNum.md",
-    "Background/Choices/TaskChoices.md",
-    "Background/Choices/TaskStatusChoices.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Animate scope variable loss.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Intro Control Flow Script.md",
-    "Scripts/Week_2 Rust/Tasks/Complete/Animate Transfering ownership of data.md",
-    "Background/Trash/Untitleddd2.md",
-    "Scripts/Week_2 Rust/Tasks/Complete/Animate losing ownership of variable.md",
-    "Scripts/Week_2 Rust/Scripts/Rules of ownership in Rust(Rust).md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Rules of ownership in Rust Video.md.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Outro Speal Video.md.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Video for mutabiity.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Write script for Rules of ownership in Rust.md.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Write script for References and borrowing.md.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Write Intro Control Flow Script.md",
+    "Scripts/Week_2 Rust/Scripts/Outro Speal(Rust).md",
     "Scripts/Week_2 Rust/Scripts/Weekly Speal(Rust).md",
-    "Background/Trash",
+    "Untitled.md",
+    "Class/Script.md",
+    "Class/Rust.md",
     "Scripts/Week_1 Rust/Week_1 Rust.canvas",
     "Background/JS/finalDraftText.js",
     "Scripts/Week_2g Rust/Scripts",
@@ -203,9 +206,6 @@
     "Scripts/Week_2g Rust/Tasks",
     "Scripts/Week_2g Rust",
     "Scripts/Week_2 undefined/Tasks/NotFinished",
-    "Scripts/Week_2 undefined/Tasks",
-    "Scripts/Week_2 undefined",
-    "Background/JS/createRecordTask.js",
     "Scripts/Week_2 Rust/Week_2 Rust.canvas"
   ]
 }
