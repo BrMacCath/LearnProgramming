@@ -5,10 +5,10 @@ async function my_function(dv, tp, script, weekNum, dueDate, language) {
   scriptData += `save: false\n`;
   scriptData += "taskStatus: Not Started\n";
   scriptData += `weekNum: ${weekNum}\n`;
-  scriptData += `taskType: Script\n`;
+  scriptData += `taskType: Editing\n`;
   scriptData += `due_date: ${dueDate}\n`;
   scriptData += `---\n`;
-  scriptData += `\n\n# Task\n\n- [ ] Write script for [[${script}(${language})|${script}]] #Script`;
+  scriptData += `\n\n# Task\n\n- [ ] Edit [[${script}(${language})|${script}]] video #Editing`;
   console.log(scriptData);
   console.log(scriptLocation);
   return await tp.file.create_new(scriptData, scriptLocation);
