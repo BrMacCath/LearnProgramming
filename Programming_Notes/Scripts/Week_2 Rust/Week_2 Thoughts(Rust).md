@@ -71,3 +71,4 @@ When building this project, a major component of this was to learn in public. In
 
 
 # End First Draft
+<% tp.user.Task.test() %>

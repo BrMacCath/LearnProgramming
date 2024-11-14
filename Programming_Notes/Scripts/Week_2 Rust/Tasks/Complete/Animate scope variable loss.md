@@ -1,6 +1,6 @@
 ---
 fileClass: Task
-taskStatus: Making Progress
+taskStatus: Done
 weekNum: 2
 taskType: Animation
 due_date: 11-11-2024
@@ -8,7 +8,7 @@ due_date: 11-11-2024
 
 # Task
 
-- [ ] Animate scope variable loss #Script 
+- [x] Animate scope variable loss #Script 
 
 
  

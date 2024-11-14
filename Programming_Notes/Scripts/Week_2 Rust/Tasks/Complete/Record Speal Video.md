@@ -1,13 +1,13 @@
 ---
 fileClass: Task
-taskStatus: Not Started
+taskStatus: Done
 weekNum: 2
 taskType: Recording
 due_date: 11-04-2024
 ---
 
 # Task
-- [ ] Record Speal Video #Script 
+- [x] Record Speal Video #Script 
 
 
  

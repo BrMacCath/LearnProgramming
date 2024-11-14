@@ -38,4 +38,4 @@ Hi All! Welcome or welcome back to this channel.
 
 # Final Draft
 
-Hi All! Welcome to this channel. We have a discord if you would like to join us. There is also a website build using obsidian publish that will have all the scripts, including the rough drafts. Notes made during the week will also be put online on this website. You can also vote for new projects! In the meantime, there will be weekly YouTube videos so you are more than welcome to stick around here for a while. All the code made to use this in Rust and obsidian will be available on GitHub too.
+Hi All! Welcome to this channel. We have a discord if you would like to join us. There is also a website built using obsidian publish that will have all the scripts, including the rough drafts. Notes made during the week will also be put online on this website. You can also vote for new projects when we have finished going through the book! In the meantime, there will be weekly YouTube videos so you are more than welcome to stick around here for a while. All the code made in Rust and obsidian will be available on GitHub too.
