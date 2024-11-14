@@ -307,9 +307,31 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "f7d65489-432b-43e0-b029-6618eb8427dc",
+      "name": "Test",
+      "type": "Macro",
+      "command": false,
+      "macroId": "a6c80be9-d9a5-4a4c-84c2-f1b973ec76a4"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "Test",
+      "id": "a6c80be9-d9a5-4a4c-84c2-f1b973ec76a4",
+      "commands": [
+        {
+          "name": "cleanTrash",
+          "type": "UserScript",
+          "id": "c53c8e55-d3d8-424e-bb14-91372f328d6b",
+          "path": "Background/JS/cleanTrash.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",

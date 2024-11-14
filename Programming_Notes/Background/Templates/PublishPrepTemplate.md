@@ -183,9 +183,6 @@ langs.forEach( async (language) =>   {
 	
 	
 })
-const filename = tp.file.title;
-console.log(filename);
-const tFile = tp.file.find_tfile(filename);
-app.workspace.getLeaf("tab").openFile("Welcome");
-app.vault.trash(tFile);
+const vault = app.vault;
+await tp.user.cleanTrash(dv,tp, vault)
 %>
