@@ -8,7 +8,9 @@ async function my_function(dv, tp, script, paragraphSeparator, draftChoices) {
   const sections = draft.split(paragraphSeparator).filter((t) => t != "");
   let paragraphs = [];
   sections.forEach((section) => {
-    let sentences = section.split("\n").filter((t) => t[0] == ">");
+    let sentences = section
+      .split("\n")
+      .filter((t) => t[0] == ">" || t[0] == "> ");
     sentences = sentences.map((sentence) => sentence.slice(2));
     sentences = sentences.filter((sentence) => sentence != "");
     sentences = sentences.map((sentence) => {

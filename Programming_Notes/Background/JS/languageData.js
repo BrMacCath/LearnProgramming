@@ -9,7 +9,10 @@ async function my_function(dv, tp) {
     "What language?"
   );
   const languageWeekNumLocation = `Background/Choices/${language}WeekNum.md`;
-  const weekNum = Number(await dv.io.load(languageWeekNumLocation));
+  const weekNum = await tp.system.prompt(
+    "What week?",
+    await dv.io.load(languageWeekNumLocation)
+  );
   return [language, weekNum, languageWeekNumLocation];
 }
 module.exports = my_function;
