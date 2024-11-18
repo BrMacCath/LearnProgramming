@@ -36,7 +36,12 @@ fields:
     options: {}
     path: ""
     id: PL68GU
-version: "2.11"
+  - name: Script
+    type: Input
+    options: {}
+    path: ""
+    id: tbTHJE
+version: "2.12"
 limit: 20
 mapWithTag: false
 icon: package
@@ -48,6 +53,7 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - tbTHJE
   - PL68GU
   - 4FR47V
   - qoFB56
