@@ -148,6 +148,21 @@ langs.forEach( async (language) =>   {
 	// This is to figure out what week we are working with.
 	
 	welcomeText = welcomeText + `\n\n# ${language} Script this week\n\n[[Week_${weekNum} ${language} Publish| Week ${weekNum} in ${language}]]\n\n![[Week_${weekNum} ${language} Publish#Script Goals]] `;
+
+	// Now we also need to add the current thoughts
+	const scriptName =`Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language}).md`
+	const thought_script = dv.page(scriptName)
+	if(thought_script.complete){
+		console.log("Here")	
+	}else{
+		const draft_num =thought_script.DraftNum
+		if (draft_num <=2){
+			const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# First Draft`
+			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
+			const index_start =  thought_text.indexOf("\n")
+			welcomeText += "# Current Thoughts" + thought_text.slice(index_start+1)
+		}
+	}
 	
 	await app.vault.modify(tFileWelcome, welcomeText);
 	// Here for each week we want to look at the 
