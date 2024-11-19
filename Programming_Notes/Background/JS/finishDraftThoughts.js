@@ -6,9 +6,14 @@ async function my_function(dv, tp, weekNum, language, scriptName) {
   const draft_num = script.DraftNum;
 
   endText = endText.replace(
-    `DraftNum: ${draft_num}`,
+    `complete: false`,
 
-    `DraftNum: ${draft_num + 1}`
+    `complete: true`
+  );
+  endText = endText.replace(
+    `ScriptStatus: Making Progress`,
+
+    `ScriptStatus: Done`
   );
 
   const section = `# ${tp.user.stringifyNumber(draft_num)} Draft`;

@@ -11,7 +11,7 @@ async function my_function(dv, tp, script, paragraphSeparator, draftChoices) {
     let sentences = section
       .split("\n")
       .filter((t) => t[0] == ">" || t[0] == "> ");
-    sentences = sentences.map((sentence) => sentence.slice(2));
+    sentences = sentences.map((sentence) => sentence.slice(2).trim());
     sentences = sentences.filter((sentence) => sentence != "");
     sentences = sentences.map((sentence) => {
       if (sentence.slice(-1) == ".") {
