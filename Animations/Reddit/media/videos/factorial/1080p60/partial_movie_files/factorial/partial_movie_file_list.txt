@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/brian/LearnProgramming/Animations/Reddit/media/videos/factorial/1080p60/partial_movie_files/factorial/3977891868_123554531_4249226659.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Reddit/media/videos/factorial/1080p60/partial_movie_files/factorial/2852726489_646475282_840214245.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Reddit/media/videos/factorial/1080p60/partial_movie_files/factorial/2852726489_2897262007_3444077919.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Reddit/media/videos/factorial/1080p60/partial_movie_files/factorial/2852726489_1704852926_1152346844.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Reddit/media/videos/factorial/1080p60/partial_movie_files/factorial/2852726489_2026320207_919761832.mp4'
+file 'file:C:/Users/brian/LearnProgramming/Animations/Reddit/media/videos/factorial/1080p60/partial_movie_files/factorial/2852726489_1704852926_2020794730.mp4'
