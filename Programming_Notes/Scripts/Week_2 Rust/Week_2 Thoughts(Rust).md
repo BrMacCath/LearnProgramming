@@ -84,14 +84,13 @@ When building this project, a major component of this was to learn in public. In
 ## Animation
 
 
-
 Topic: For loops in Manim
 
 I knew that Manim allowed for animations to be created in a programmatic way.
-> 
+> dfhhrth.
 
 I knew that this allowed for small changes to be easy enough to program.
-> 
+> dfhdfh.
 
 One thing I did not realise was how useful for loops would be in Manim.
 > 
@@ -119,10 +118,10 @@ I am now building smaller video sections and then stitching them together at the
 Topic: Low pass filters
 
 When planning my first video I was thinking a lot about the animation/visual display.
-> 
+> agr
 
 I needed to get the video out so I accepted that there were going to be issues.
-> 
+> sd
 
 One of my goals for this video was to make sure that there was no crackling in the background and the sound remained close to constant.
 > 
@@ -279,4 +278,5 @@ It seems to me the more flexible the base, the more rigid the applications are a
 
 I am noticing this in other facets of my life too.
 > 
+
 

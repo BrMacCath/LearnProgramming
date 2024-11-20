@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scripts/Week_2 Rust/Scripts/References and borrowing(Rust).md",
+                "file": "Background/Templates/PublishPrepTemplate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "References and borrowing(Rust)"
+              "title": "PublishPrepTemplate"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scripts/Week_2 Rust/Scripts/References and borrowing(Rust).md"
+                "file": "Background/Templates/PublishPrepTemplate.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of References and borrowing(Rust)"
+              "title": "Outline of PublishPrepTemplate"
             }
           }
         ],
@@ -169,34 +169,34 @@
   },
   "active": "d1f339c37e48e260",
   "lastOpenFiles": [
+    "Background/Trash/Untitleddd1.md",
+    "Background/Trash/Untitleddd.md",
+    "Scripts/Week_2 Rust/Week_2 Rust Publish.md",
+    "Welcome.md",
+    "Background/Templates/PublishPrepTemplate.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Intro Control Flow Script.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Rules of ownership in Rust Video.md.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Write script for References and borrowing.md.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record References and borrowing Video.md.md",
+    "Scripts/Week_2 Rust/Scripts/References and borrowing(Rust).md",
+    "Background/Trash",
     "Background/Trash/Untitleddd6.md",
     "Background/Trash/Untitleddd5.md",
     "Background/Trash/Untitleddd4.md",
     "Background/Trash/Untitleddd3.md",
     "Scripts/Week_2 Rust/Week_2 Thoughts(Rust).md",
-    "Background/Trash/Untitleddd.md",
     "Home.md",
-    "Scripts/Week_2 Rust/Scripts/References and borrowing(Rust).md",
     "Background/Trash/Untitleddd2.md",
     "Scripts/Week_2 Rust/Scripts/Rules of ownership in Rust(Rust).md",
     "Scripts/Week_2 Rust/Scripts/Weekly Speal(Rust).md",
     "Scripts/Week_2 Rust/Tasks/Complete/Write speal for channel.md",
-    "Scripts/Week_2 Rust/Week_2 Rust Publish.md",
     "Scripts/Week_2 Rust/Week_2 Rust(Rust).md",
     "Scripts/Week_2 Rust/Scripts/Function Structure(Rust).md",
     "Scripts/Week_2 Rust/Scripts/Compounding data types(Rust).md",
     "Background/Templates/Finish Thought Draft.md",
     "Background/Templates/New Draft Thoughts.md",
     "Background/Templates/Create_New_Week.md",
-    "Untitled.md",
-    "Templates/Test.md",
     "Background/JS/finishDraftThoughts.js",
-    "Welcome.md",
-    "Background/Templates/PublishPrepTemplate.md",
-    "Background/Trash/Untitleddd1.md",
-    "Background/Trash",
-    "Untitled 8.md",
-    "Scripts/Week_1 Rust/Scripts/Motivation for Layout of Rust Course(Rust).md",
     "Background/JS/convertThoughtsDraft.js",
     "Background/JS/convertFirstDraftThoughs.js",
     "Background/JS/redraftSentences.js",

@@ -59,7 +59,6 @@ langs.forEach( async (language) =>   {
 		if (weekCheckFinalised){
 			continue;
 		}
-		console.log(`${i}`);
 		let folder =`Scripts/Week_${i} ${language}/Tasks`;
 		const query = `TABLE WITHOUT ID
 		file.link AS Note
@@ -160,7 +159,15 @@ langs.forEach( async (language) =>   {
 			const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# First Draft`
 			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
 			const index_start =  thought_text.indexOf("\n")
-			welcomeText += "# Current Thoughts" + thought_text.slice(index_start+1)
+			welcomeText += "\n\n# Current Thoughts\n\n" + thought_text.slice(index_start+1)
+		}else{
+		let temp_text_str = `${tp.user.stringifyNumber(draft_num-1)} Draft`;
+
+  temp_tex_str = temp_text_str.charAt(0).toUpperCase() + temp_text_str.substring(1);
+		const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# ${temp_text_str}$`
+			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
+			const index_start =  thought_text.indexOf("\n")
+			welcomeText += "\n\n# Current Thoughts\n\n" + thought_text.slice(index_start+1)
 		}
 	}
 	
