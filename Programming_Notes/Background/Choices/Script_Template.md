@@ -32,6 +32,7 @@ tR += "---"
 
 <%*
 // This needs to be at the end as this interacts with tp, effecting tp.move. 
+  await tp.user.createAnimationTask(dv,tp,script,weekNum,dueDate,language);
   await tp.user.createRecordTask(dv,tp,script,weekNum,dueDate,language);
   await tp.user.createScriptTask(dv,tp,script,weekNum,dueDate,language);
   await tp.user.createEditingTask(dv,tp,script,weekNum,dueDate,language);

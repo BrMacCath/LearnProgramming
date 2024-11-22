@@ -25,7 +25,7 @@ fields:
     options: {}
     path: ""
     id: 5nIGlB
-version: "2.5"
+version: "2.6"
 limit: 20
 mapWithTag: false
 icon: search

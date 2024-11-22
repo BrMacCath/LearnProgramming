@@ -12,12 +12,23 @@ FROM "Rust"
 SORT file.mtime desc
 LIMIT 5`;
 
+const taskQuery = `
+TABLE WITHOUT ID
+file.link AS Note, dateformat(file.mtime, "ff") AS Modified,file.frontmatter.taskType AS Task_Type
+FROM "Scripts"
+WHERE file.frontmatter.fileClass = "Task"
+SORT file.mtime desc
+LIMIT 5
+`
 
 const tFileWelcome = tp.file.find_tfile(filenameWelcome);
 
 const queryOutput = await dv.queryMarkdown(welcomeQuery);
+const task_query_output = await dv.queryMarkdown(taskQuery);
 const text = await tp.file.include('[[WelcomeStart]]');
-let welcomeText = text + "\n\n" + queryOutput.value;
+
+
+let welcomeText = text +"\n\n# Current Task work\n\n"+task_query_output.value+ "\n\n# Current Note changes\n\n" + queryOutput.value;
 
 
 // Now we need to let the Current weeks Scripts
@@ -139,7 +150,18 @@ langs.forEach( async (language) =>   {
 			text += script_file.slice(ind+13)+"\n";
 		}))
 
-
+		let mermaid_text = "```mermaid\ngraph TB\n"
+		let mermaid_arrows = ""
+		for (let i=0; i < ordered_scripts.length-1;i++){
+			const start_file = `${ordered_scripts[i].file.name}`.slice(0,-(2 + language.length))
+			const end_file = `${ordered_scripts[i+1].file.name}`.slice(0,-(2 + language.length))
+			mermaid_text +="\t"+`${start_file}`.trim().replaceAll(" ","_")+`(${start_file})`+`\n`
+			mermaid_arrows +="\t"+`${start_file}`.trim().replaceAll(" ","_")+` --> `+`${end_file}\n`.trim().replaceAll(" ","_")  +"\n"
+		}
+		const last_file =`${ordered_scripts.slice(-1)[0].file.name}`.slice(0,-(2 + language.length))
+		mermaid_text +="\t"+`\t${last_file}`.trim().replaceAll(" ","_") + `(${last_file})\n`
+		mermaid_arrows +="```"
+		text += mermaid_text+ "\n"+ mermaid_arrows
 		await app.vault.modify(tFile, text);
 	}
 
@@ -156,18 +178,27 @@ langs.forEach( async (language) =>   {
 	}else{
 		const draft_num =thought_script.DraftNum
 		if (draft_num <=2){
+			
 			const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# First Draft`
 			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
 			const index_start =  thought_text.indexOf("\n")
 			welcomeText += "\n\n# Current Thoughts\n\n" + thought_text.slice(index_start+1)
 		}else{
+		if (thought_script.complete){
+		
+		const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# Final Draft`
+			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
+			const index_start =  thought_text.indexOf("\n")
+			welcomeText += "\n\n# This weeks Thoughts\n\n" + thought_text.slice(index_start+1)
+		}else{
 		let temp_text_str = `${tp.user.stringifyNumber(draft_num-1)} Draft`;
 
-  temp_tex_str = temp_text_str.charAt(0).toUpperCase() + temp_text_str.substring(1);
+		  temp_tex_str = temp_text_str.charAt(0).toUpperCase() + temp_text_str.substring(1);
 		const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# ${temp_text_str}$`
 			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
 			const index_start =  thought_text.indexOf("\n")
 			welcomeText += "\n\n# Current Thoughts\n\n" + thought_text.slice(index_start+1)
+			}
 		}
 	}
 	

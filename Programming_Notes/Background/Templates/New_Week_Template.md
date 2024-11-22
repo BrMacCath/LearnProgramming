@@ -1,9 +1,9 @@
 ---
 fileClass: Overview
 weekNum: 
-language:
-complete: 
-finalised: 
+language: 
+complete: false
+finalised: false
 ---
 # Goals
 

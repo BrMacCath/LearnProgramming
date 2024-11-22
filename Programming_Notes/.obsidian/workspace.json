@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef7d862596805cdd",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d1f339c37e48e260",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,16 @@
               },
               "icon": "lucide-file",
               "title": "PublishPrepTemplate"
+            }
+          },
+          {
+            "id": "3eb21feb6ed0d6f8",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__Overview",
+              "state": {},
+              "icon": "search",
+              "title": "Overview"
             }
           }
         ]
@@ -77,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "68eecc57d4202668",
@@ -167,45 +177,45 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d1f339c37e48e260",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Background/Trash/Untitleddd1.md",
-    "Background/Trash/Untitleddd.md",
-    "Scripts/Week_2 Rust/Week_2 Rust Publish.md",
     "Welcome.md",
     "Background/Templates/PublishPrepTemplate.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Intro Control Flow Script.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Rules of ownership in Rust Video.md.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Write script for References and borrowing.md.md",
-    "Scripts/Week_2 Rust/Tasks/NotFinished/Record References and borrowing Video.md.md",
-    "Scripts/Week_2 Rust/Scripts/References and borrowing(Rust).md",
-    "Background/Trash",
-    "Background/Trash/Untitleddd6.md",
-    "Background/Trash/Untitleddd5.md",
-    "Background/Trash/Untitleddd4.md",
-    "Background/Trash/Untitleddd3.md",
+    "Background/Trash/Untitleddd1.md",
     "Scripts/Week_2 Rust/Week_2 Thoughts(Rust).md",
-    "Home.md",
-    "Background/Trash/Untitleddd2.md",
-    "Scripts/Week_2 Rust/Scripts/Rules of ownership in Rust(Rust).md",
-    "Scripts/Week_2 Rust/Scripts/Weekly Speal(Rust).md",
-    "Scripts/Week_2 Rust/Tasks/Complete/Write speal for channel.md",
-    "Scripts/Week_2 Rust/Week_2 Rust(Rust).md",
-    "Scripts/Week_2 Rust/Scripts/Function Structure(Rust).md",
-    "Scripts/Week_2 Rust/Scripts/Compounding data types(Rust).md",
-    "Background/Templates/Finish Thought Draft.md",
-    "Background/Templates/New Draft Thoughts.md",
+    "Background/Templates/New_Week_Template.md",
+    "Class/Overview.md",
     "Background/Templates/Create_New_Week.md",
+    "Test.md",
+    "Background/Templates/Finish Thought Draft.md",
+    "Scripts/Week_2 Rust/Week_2 Rust(Rust).md",
+    "Background/Trash/Untitleddd.md",
+    "Home.md",
+    "Scripts/Week_2 Rust/Scripts/Outro Speal(Rust).md",
+    "Scripts/Week_2 Rust/Tasks/Complete/Animate Transfering ownership of data.md",
+    "Background/Templates/WelcomeStart.md",
+    "Class/Python.md",
+    "Background/JS/TaskManagement/taskData.js",
+    "Background/JS/TaskManagement/createAnimationTask.js",
+    "Background/JS/TaskManagement/createScriptTask.js",
+    "Background/JS/TaskManagement/createRecordTask.js",
+    "Background/JS/TaskManagement/createEditingTask.js",
+    "Background/JS/TaskManagement",
+    "Background/JS/New folder",
+    "Background/Templates/UpdateWelcome.md",
+    "Scripts/Week_2 Rust/Week_2 Rust Publish.md",
+    "Background/Choices/Script_Template.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Record Intro Control Flow Script.md",
+    "Scripts/Week_2 Rust/Tasks/NotFinished/Animate borrowing video.md",
+    "Class/Task.md",
+    "Background/JS/createAnimationTask.js",
+    "Background/Templates/UpdateTasks.md",
+    "Background/Templates/Project_Template.md",
+    "Background/Templates/Programming_Template.md",
+    "Background/Templates/New Draft Thoughts.md",
+    "Background/Trash",
     "Background/JS/finishDraftThoughts.js",
-    "Background/JS/convertThoughtsDraft.js",
-    "Background/JS/convertFirstDraftThoughs.js",
-    "Background/JS/redraftSentences.js",
-    "Background/JS/rewritingSentences.js",
     "Scripts/Week_2 Rust/Week_2 Rust.canvas",
-    "Background/JS/cleanTrash.js",
-    "Background/JS/cleanTrask.js",
-    "Background/JS/Task/test.js",
-    "Background/JS/Task",
     "Scripts/Week_1 Rust/Week_1 Rust.canvas"
   ]
 }
