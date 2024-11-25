@@ -1,5 +1,5 @@
 async function my_function(dv, tp, script, weekNum, dueDate, language) {
-  const scriptLocation = `Scripts/Week_${weekNum} ${language}/Tasks/NotFinished/Write script for ${script}.md`;
+  const scriptLocation = `Scripts/Week_${weekNum} ${language}/Tasks/NotFinished/Create Animations for ${script}.md`;
   let scriptData = `---\n`;
   scriptData += `fileClass: Task\n`;
   scriptData += `save: false\n`;

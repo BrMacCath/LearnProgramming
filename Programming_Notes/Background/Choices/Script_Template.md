@@ -3,8 +3,7 @@
 // Create a record and write script task for this.
 const fileName = tp.file.title;
 let dv = app.plugins.plugins.dataview.api;
-const [language,weekNumDefault] = await tp.user.languageData(dv,tp); 
-const weekNum = await tp.system.prompt("What week is this for?",`${weekNumDefault}`);
+const [language,weekNum] = await tp.user.languageData(dv,tp); 
 
 const script = await tp.system.prompt("Name of script:");
 const dueDate = await tp.system.prompt(
