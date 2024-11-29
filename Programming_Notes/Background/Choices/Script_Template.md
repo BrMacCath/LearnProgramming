@@ -27,12 +27,15 @@ tR += "---"
 
 
 # First Draft
-<%tp.file.move(`Scripts/Week_${weekNum} ${language}/Scripts/${script}(${language})`)%>
+<%tp.file.move(tp.user.scriptPath(tp,language,weekNum,script))%>
 
 <%*
 // This needs to be at the end as this interacts with tp, effecting tp.move. 
   await tp.user.createAnimationTask(dv,tp,script,weekNum,dueDate,language);
   await tp.user.createRecordTask(dv,tp,script,weekNum,dueDate,language);
   await tp.user.createScriptTask(dv,tp,script,weekNum,dueDate,language);
+  await tp.user.createSketchTask(dv,tp,script,weekNum,dueDate,language);
   await tp.user.createEditingTask(dv,tp,script,weekNum,dueDate,language);
+
+  await tp.user.createTaskManagementFile(dv,tp,script,weekNum,dueDate,language);
   %>

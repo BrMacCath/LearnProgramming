@@ -2,7 +2,7 @@ async function my_function(dv, tp, script, weekNum, dueDate, language) {
   const scriptLocation = `${tp.user.baseFolder(
     language,
     weekNum
-  )}/Tasks/NotFinished/Write script for ${script}.md`;
+  )}/Tasks/NotFinished/Write script for ${script}`;
   let scriptData = `---\n`;
   scriptData += `fileClass: Task\n`;
   scriptData += `save: false\n`;

@@ -1,44 +1,40 @@
 <%*
 // // This is updating the welcome part.
 const dv = app.plugins.plugins["dataview"].api;
-
+await tp.user.publishPrep(dv,tp);
 // This is to put the start of the welcome file into what we are doing.
 const filenameWelcome = "Welcome";
 // Once I start using other languages, I need to change the from so that
 // It allows for each language. It may have to be a Join with OR call
+
+const text = await tp.file.include('[[WelcomeStart]]');
+
+
+
+
+
+// Now we need to let the Current weeks Scripts
+langs = await tp.user.allLanguages(dv)
+
+
+
 const welcomeQuery = `TABLE WITHOUT ID
 file.link AS Note, dateformat(file.mtime, "ff") AS Modified,file.frontmatter.fileClass AS Language
 FROM "Rust"
 SORT file.mtime desc
 LIMIT 5`;
 
-const taskQuery = `
-TABLE WITHOUT ID
-file.link AS Note, dateformat(file.mtime, "ff") AS Modified,file.frontmatter.taskType AS Task_Type
-FROM "Scripts"
-WHERE file.frontmatter.fileClass = "Task"
-SORT file.mtime desc
-LIMIT 5
-`
+
 
 const tFileWelcome = tp.file.find_tfile(filenameWelcome);
 
 const queryOutput = await dv.queryMarkdown(welcomeQuery);
-const task_query_output = await dv.queryMarkdown(taskQuery);
-const text = await tp.file.include('[[WelcomeStart]]');
 
 
-let welcomeText = text +"\n\n# Current Task work\n\n"+task_query_output.value+ "\n\n# Current Note changes\n\n" + queryOutput.value;
+
+let welcomeText = text +(await tp.user.taskQueries(dv,tp,langs))+ "\n\n# Current Note changes\n\n" + queryOutput.value;
 
 
-// Now we need to let the Current weeks Scripts
-let location = 'Background/Choices/ProgrammingChoices.md';
-const content = await dv.io.load(location);
-const temp = `${content}`.split("\n");
-let langs =[];
-for(i=0; i < temp.length;i++){
-	langs.push(temp[i]);
-}
 
 
 // write query output to file
@@ -63,61 +59,24 @@ langs.forEach( async (language) =>   {
 	// finished tasks and move them into the complete folder.
 	// This may be better as a forEach?
 	for(let i = 1; i <weekNum+1;i++){
-		const filename = `Scripts/Week_${i} ${language}/Week_${i} ${language} Publish.md`;
-		
-		const weekCheckFinalised = await dv.page(filename).file.frontmatter.finalised; 
+		const filename = `${tp.user.thoughtsPath(tp,language,i)}.md`;
+		console.log((await dv.page(filename))[0]);
+		const weekCheckFinalised = (await dv.page(filename)).file.frontmatter.finalised; 
 
 		if (weekCheckFinalised){
 			continue;
 		}
-		let folder =`Scripts/Week_${i} ${language}/Tasks`;
+		let folder =`${tp.user.taskFolderPath(tp,language,i)}`;
 		const query = `TABLE WITHOUT ID
 		file.link AS Note
 		FROM "${folder}"`;
-		let text = "";
-		text = await tp.file.include(`[[Scripts/Week_${i} ${language}/Week_${i} ${language}(${language})]]`);
+		
+		
+		let text = await tp.file.include(`[[${tp.user.overviewPath(tp,language,i)}]]`);
+	// Add in the finalised part
+	
 
-		let tasksAvailable = false;
-		await Promise.all(taskChoices.map(async (Choice) => {
-			const queryChoice =`TABLE WITHOUT ID
-			file.link As ${Choice}-Task, file.frontmatter.taskStatus As Status, file.frontmatter.due_date As Due-Date
-			FROM "${folder}"
-			WHERE file.frontmatter.taskStatus != "Done" AND file.frontmatter.taskType = "${Choice}"
-			SORT file.link DESC`;
-			
-			const queryOutput = await dv.queryMarkdown(queryChoice);
-			const count = (queryOutput.value.match(/\n/g) || []).length;
-			if (count ===2){
-				return;
-			}
-			tasksAvailable = true;
-			
-			text += "\n\n" +queryOutput.value;
-		}));
-
-		let queryLink = "link";
-
-		if (!tasksAvailable){
-			// Ask if the week is done.
-			const trueFalse = [true,false];
-			const finalisedWeek = await tp.system.suggester(trueFalse, trueFalse,true,"Is this week finalised?");
-			if (finalisedWeek){
-				queryLink = "name";
-				text = text.replace("finalised: false","finalised: true");
-				text = text.replace("complete: false","complete: true");
-				// Replace the Base file too!.
-				const tempFilename = `Scripts/Week_${i} ${language}/Week_${i} ${language}(${language}).md`;
-				const temptFile =  await tp.file.find_tfile(tempFilename); 
-				await app.vault.modify(temptFile,text);
-			}
-		}
-
-		// Let's add tasks here
-		const queryChoice =`TABLE WITHOUT ID
-		file.${queryLink} As Finished-Task, file.frontmatter.taskStatus As Status, file.frontmatter.taskType As Task-Type
-		FROM "${folder}"
-		WHERE file.frontmatter.taskStatus = "Done"
-		SORT file.${queryLink} DESC`;
+		const [queryChoice,text] = await tp.user.finishedTasksDataviewQuery(dv, tp, language, taskChoices,text)
 		
 		const queryOutput = await dv.queryMarkdown(queryChoice);
 		text += "\n\n" +queryOutput.value;
@@ -128,10 +87,11 @@ langs.forEach( async (language) =>   {
 		// We first add the final draft
 		text += "\n\n# Final Draft\n\n";
 		// Now we need to get all the current script locations
-		const script_folder = `Scripts/Week_${i} ${language}/Scripts`;
 	
+		const script_folder = tp.user.scriptFolderPath(tp,language,i);
+		console.log(script_folder)
 		const ordered_scripts =dv.pages(`"${script_folder}"`).sort(p =>p.SectionNum);
-
+		console.log(ordered_scripts)
 		await Promise.all(ordered_scripts.map(async (script)=>
 		{
 			//text += tp.user.finalDraftText(script)
@@ -158,43 +118,57 @@ langs.forEach( async (language) =>   {
 			mermaid_text +="\t"+`${start_file}`.trim().replaceAll(" ","_")+`(${start_file})`+`\n`
 			mermaid_arrows +="\t"+`${start_file}`.trim().replaceAll(" ","_")+` --> `+`${end_file}\n`.trim().replaceAll(" ","_")  +"\n"
 		}
+		console.log("Test here")
+		console.log(`${ordered_scripts.slice(-1)[0].file.name}`)
 		const last_file =`${ordered_scripts.slice(-1)[0].file.name}`.slice(0,-(2 + language.length))
+		console.log("Test Here")
 		mermaid_text +="\t"+`\t${last_file}`.trim().replaceAll(" ","_") + `(${last_file})\n`
 		mermaid_arrows +="```"
 		text += mermaid_text+ "\n"+ mermaid_arrows
+
+		// Create data about thought file
+		const scriptName =`${tp.user.thoughtsPath(tp,language,i)}.md`
+		const thought_script = dv.page(scriptName)
+		if(thought_script.complete){
+		const temp_thought_text_location = `${tp.user.thoughtsPath(tp,language,i)}# Final Draft`
+		const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
+		const index_start =  thought_text.indexOf("\n")
+		text += "\n\n# This weeks Thoughts\n\n" + thought_text.slice(index_start+1)
+	}
+
 		await app.vault.modify(tFile, text);
 	}
 
 	
 	// This is to figure out what week we are working with.
 	
-	welcomeText = welcomeText + `\n\n# ${language} Script this week\n\n[[Week_${weekNum} ${language} Publish| Week ${weekNum} in ${language}]]\n\n![[Week_${weekNum} ${language} Publish#Script Goals]] `;
+	welcomeText = welcomeText + `\n\n# ${language} Script this week\n\n[[Week ${weekNum} ${language} Publish| Week ${weekNum} in ${language}]]\n\n![[Week ${weekNum} ${language} Publish#Script Goals]] `;
 
 	// Now we also need to add the current thoughts
-	const scriptName =`Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language}).md`
+	const scriptName =`${tp.user.thoughtsPath(tp,language,weekNum)}.md`
 	const thought_script = dv.page(scriptName)
 	if(thought_script.complete){
-		console.log("Here")	
+		const temp_thought_text_location = `${tp.user.thoughtsPath(tp,language,weekNum)}# Final Draft`
+		const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
+		const index_start =  thought_text.indexOf("\n")
+		welcomeText += "\n\n# This weeks Thoughts\n\n" + thought_text.slice(index_start+1)
 	}else{
 		const draft_num =thought_script.DraftNum
 		if (draft_num <=2){
 			
-			const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# First Draft`
+			const temp_thought_text_location = `${tp.user.thoughtsPath(tp,language,weekNum)}# First Draft`
 			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
 			const index_start =  thought_text.indexOf("\n")
 			welcomeText += "\n\n# Current Thoughts\n\n" + thought_text.slice(index_start+1)
 		}else{
 		if (thought_script.complete){
 		
-		const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# Final Draft`
-			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
-			const index_start =  thought_text.indexOf("\n")
-			welcomeText += "\n\n# This weeks Thoughts\n\n" + thought_text.slice(index_start+1)
+		
 		}else{
 		let temp_text_str = `${tp.user.stringifyNumber(draft_num-1)} Draft`;
 
 		  temp_tex_str = temp_text_str.charAt(0).toUpperCase() + temp_text_str.substring(1);
-		const temp_thought_text_location = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# ${temp_text_str}$`
+		const temp_thought_text_location = `${tp.user.thoughtsPath(tp,language,weekNum)}# ${temp_text_str}$`
 			const thought_text = await tp.file.include(`[[${temp_thought_text_location}]]`)
 			const index_start =  thought_text.indexOf("\n")
 			welcomeText += "\n\n# Current Thoughts\n\n" + thought_text.slice(index_start+1)
@@ -207,9 +181,9 @@ langs.forEach( async (language) =>   {
 	// finished tasks and move them into the complete folder.
 	// This may be better as a forEach?
 	for(let i = 1; i <weekNum+1;i++){
-		let folder =`Scripts/Week_${i} ${language}/Tasks/NotFinished`;
-		let newFolder = `Scripts/Week_${i} ${language}/Tasks/Complete/`
-		const filename = `Scripts/Week_${i} ${language}/Scripts/Week_${i} ${language} Publish`;
+		let folder =`${tp.user.notFinishedTasksFolder(tp,language,i)}`;
+		let newFolder = `${tp.user.completeTasksFolder(tp,language,i)}`
+		const filename = `${tp.user.publishPath(tp,language,i)}`;
 		const query = `TABLE WITHOUT ID
 		file.link AS Note
 		FROM "${folder}"`;
@@ -236,6 +210,7 @@ langs.forEach( async (language) =>   {
 	
 	
 })
+
 const vault = app.vault;
 await tp.user.cleanTrash(dv,tp, vault)
 %>

@@ -36,15 +36,15 @@ fields:
     options: {}
     path: ""
     id: PL68GU
-  - name: Script
+  - name: script
     type: Input
     options: {}
     path: ""
     id: tbTHJE
-version: "2.12"
+version: "2.14"
 limit: 20
 mapWithTag: false
-icon: package
+icon: calendar-check
 tagNames: 
 filesPaths: 
 bookmarksGroups: 

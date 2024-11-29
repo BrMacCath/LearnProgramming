@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "rust_num": "number"
+    "rust_num": "number",
+    "weekNum": "number"
   }
 }

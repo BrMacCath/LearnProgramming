@@ -12,7 +12,6 @@ if(script.DraftNum ==1){
 
 }else{
 	const draftChoices = (await dv.io.load("Background/Choices/DraftNumChoices.md")  ).split("\n");
-	console.log(5);
 	const paragraphs = await tp.user.convertRewriteToParagraphs(dv,tp,script, paragraphSeparator,draftChoices);
 	// Here I will make the complete Draft
 	text += `\n\n## Complete ${draftChoices[script.DraftNum-1]} Draft\n\n` + paragraphs.join(".\n\n");

@@ -335,6 +335,34 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "66118d09-432d-497c-a2cb-8d2402962bc0",
+      "name": "Finish Thought Draft",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Background/Templates/Finish Thought Draft.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "Background/Trash/Untitleddd"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],
