@@ -57,7 +57,7 @@ async function my_function(dv, tp, weekNum, language, scriptName) {
 
     const title = subject.slice(0, index_title).trim();
 
-    const topics = subject.slice(index_title).split("---");
+    const topics = subject.slice(index_title).split("+---+");
 
     let complete_draft =
       "\n\n## Completed " + `${tp.user.stringifyNumber(draft_num)} Draft`;
@@ -94,7 +94,7 @@ async function my_function(dv, tp, weekNum, language, scriptName) {
       );
     });
 
-    new_draft_subject.push(new_draft + new_draft_topics.join("\n\n---\n\n"));
+    new_draft_subject.push(new_draft + new_draft_topics.join("\n\n+---+\n\n"));
     complete_subject.push(new_draft + completed_topics.join("\n\n---\n\n"));
   });
 

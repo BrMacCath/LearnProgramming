@@ -1,10 +1,7 @@
 async function my_function(dv, tp, weekNum, language, scriptName) {
   const script = dv.page(scriptName);
-
   let endText = await dv.io.load(scriptName);
-
   const draft_num = script.DraftNum;
-
   endText = endText.replace(
     `complete: false`,
 
@@ -18,13 +15,14 @@ async function my_function(dv, tp, weekNum, language, scriptName) {
 
   const section = `# ${tp.user.stringifyNumber(draft_num)} Draft`;
 
-  const filename = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# ${tp.user.stringifyNumber(
-    draft_num
-  )} Draft`;
+  const filename =
+    script.file.folder +
+    "/" +
+    script.file.name +
+    `# ${tp.user.stringifyNumber(draft_num)} Draft`;
 
   const text = (await tp.file.include(`[[${filename}]]`)).slice(
     section.length,
-
     -1
   );
 
@@ -32,13 +30,9 @@ async function my_function(dv, tp, weekNum, language, scriptName) {
     .split("##")
     .sort((a, b) => {
       const inda = a.indexOf("\n");
-
       const aTitle = a.slice(0, inda).trim();
-
       const indb = b.indexOf("\n");
-
       const bTitle = b.slice(0, indb).trim();
-
       return a.localeCompare(b);
     })
     .filter((t) => t.trim() != "");
@@ -54,7 +48,7 @@ async function my_function(dv, tp, weekNum, language, scriptName) {
 
     const title = subject.slice(0, index_title).trim();
 
-    const topics = subject.slice(index_title).split("---");
+    const topics = subject.slice(index_title).split("+---+");
 
     let complete_draft =
       "\n\n## Completed " + `${tp.user.stringifyNumber(draft_num)} Draft`;
@@ -84,8 +78,6 @@ async function my_function(dv, tp, weekNum, language, scriptName) {
 
     complete_subject.push(new_draft + completed_topics.join("\n\n---\n\n"));
   });
-
-  console.log(complete_subject);
 
   endText += "\n\n# Final" + ` Draft\n\n` + complete_subject.join("\n\n");
   const temptFile = await tp.file.find_tfile(scriptName);

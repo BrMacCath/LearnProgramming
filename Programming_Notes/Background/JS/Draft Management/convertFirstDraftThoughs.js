@@ -8,9 +8,11 @@ async function my_function(dv, tp, weekNum, language, scriptName) {
   );
   const section = `# ${tp.user.stringifyNumber(draft_num)} Draft`;
 
-  const filename = `Scripts/Week_${weekNum} ${language}/Week_${weekNum} Thoughts(${language})# ${tp.user.stringifyNumber(
-    draft_num
-  )} Draft`;
+  const filename =
+    script.file.folder +
+    "/" +
+    script.file.name +
+    `# ${tp.user.stringifyNumber(draft_num)} Draft`;
   const text = (await tp.file.include(`[[${filename}]]`)).slice(
     section.length,
     -1

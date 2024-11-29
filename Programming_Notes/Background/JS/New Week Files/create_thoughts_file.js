@@ -1,6 +1,6 @@
 async function my_function(tp, language, week_num) {
-  const file = `Week_${week_num} Thoughts(${language})`;
-  const folder = `Scripts/Week_${week_num} ${language}`;
+  const file = `Week ${week_num} ${language} Thoughts`;
+  const folder = tp.user.baseFolder(language, week_num);
   let text = await tp.file.include(
     "[[Background/Background Templates/Thought Template.md]]"
   );

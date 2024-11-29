@@ -1,5 +1,5 @@
 async function my_function(dv, tp, weekNum, language) {
-  const script_location = `Scripts/Week_${weekNum} ${language}/Scripts`;
+  const script_location = `${tp.user.baseFolder(language, weekNum)}/Scripts`;
   const scripts = dv.pages(`"${script_location}"`).filter((t) => !t.complete);
 
   const script = await tp.system.suggester(
