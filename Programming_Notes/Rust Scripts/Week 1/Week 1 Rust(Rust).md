@@ -28,3 +28,4 @@ graph TB
 ```
 
 
+<% console.log(["a","b","c","d"].slice(0,-1)) %>

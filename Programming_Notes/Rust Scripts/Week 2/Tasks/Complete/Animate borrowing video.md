@@ -1,14 +1,15 @@
 ---
 fileClass: Task
-taskStatus: Not Started
+taskStatus: Done
 weekNum: 2
 save: false
 taskType: Animation
 due_date: 11-18-2024
+Script: 
 ---
 
 # Task
-- [ ] Animate borrowing video #Script 
+- [x] Animate borrowing video #Script 
 
 
  

@@ -2,8 +2,8 @@
 fileClass: Overview
 language: Rust
 weekNum: 2
-complete: false
-finalised: 
+complete: true
+finalised: true
 ---
 # Script Goals
 

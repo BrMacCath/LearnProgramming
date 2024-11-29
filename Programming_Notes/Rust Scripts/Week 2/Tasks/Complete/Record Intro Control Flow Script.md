@@ -1,6 +1,6 @@
 ---
 fileClass: Task
-taskStatus: Not Started
+taskStatus: Done
 weekNum: 2
 taskType: Recording
 due_date: 11-11-2024
@@ -8,7 +8,7 @@ due_date: 11-11-2024
 
 # Task
 
-- [ ] Record Intro Control Flow Script #Script 
+- [x] Record Intro Control Flow Script #Script 
 
 
  
