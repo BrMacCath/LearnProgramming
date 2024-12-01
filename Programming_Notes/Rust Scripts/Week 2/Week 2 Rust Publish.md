@@ -3,7 +3,7 @@ fileClass: Overview
 language: Rust
 weekNum: 2
 complete: true
-finalised: 
+finalised: true
 ---
 # Script Goals
 
@@ -15,29 +15,29 @@ finalised:
 
 
 
-| Finished-Task                                                                                                                                   | Status | Task-Type |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------ | --------- |
-| [[Write speal for channel\|Write speal for channel]]                                                 | Done   | Script    |
-| [[Write script for Rules of ownership in Rust.md\|Write script for Rules of ownership in Rust.md]]   | Done   | Script    |
-| [[Write script for References and borrowing.md\|Write script for References and borrowing.md]]       | Done   | Script    |
-| [[Write script for Ownership function example.md\|Write script for Ownership function example.md]]   | Done   | Script    |
-| [[Write script for Outro Speal.md\|Write script for Outro Speal.md]]                                 | Done   | Script    |
-| [[Write Script for Compounding Data Types\|Write Script for Compounding Data Types]]                 | Done   | Script    |
-| [[Write Intro Control Flow Script\|Write Intro Control Flow Script]]                                 | Done   | Script    |
-| [[Record Video for mutabiity\|Record Video for mutabiity]]                                           | Done   | Recording |
-| [[Record Speal Video\|Record Speal Video]]                                                           | Done   | Recording |
-| [[Record Rules of ownership in Rust Video.md\|Record Rules of ownership in Rust Video.md]]           | Done   | Recording |
-| [[Record References and borrowing Video.md\|Record References and borrowing Video.md]]               | Done   | Recording |
-| [[Record Ownership function example Video.md\|Record Ownership function example Video.md]]           | Done   | Recording |
-| [[Record Outro Speal Video.md\|Record Outro Speal Video.md]]                                         | Done   | Recording |
-| [[Record Intro Control Flow Script\|Record Intro Control Flow Script]]                               | Done   | Recording |
-| [[Make animation for different sized integer bits\|Make animation for different sized integer bits]] | Done   | Animation |
-| [[Fix Script Template File\|Fix Script Template File]]                                               | Done   | Script    |
-| [[Finish writing mutability script\|Finish writing mutability script]]                               | Done   | Script    |
-| [[Animate Transfering ownership of data\|Animate Transfering ownership of data]]                     | Done   | Animation |
-| [[Animate scope variable loss\|Animate scope variable loss]]                                         | Done   | Animation |
-| [[Animate losing ownership of variable\|Animate losing ownership of variable]]                       | Done   | Animation |
-| [[Animate borrowing video\|Animate borrowing video]]                                                 | Done   | Animation |
+| Finished-Task                                   | Status | Task-Type |
+| ----------------------------------------------- | ------ | --------- |
+| Write speal for channel                         | Done   | Script    |
+| Write script for Rules of ownership in Rust.md  | Done   | Script    |
+| Write script for References and borrowing.md    | Done   | Script    |
+| Write script for Ownership function example.md  | Done   | Script    |
+| Write script for Outro Speal.md                 | Done   | Script    |
+| Write Script for Compounding Data Types         | Done   | Script    |
+| Write Intro Control Flow Script                 | Done   | Script    |
+| Record Video for mutabiity                      | Done   | Recording |
+| Record Speal Video                              | Done   | Recording |
+| Record Rules of ownership in Rust Video.md      | Done   | Recording |
+| Record References and borrowing Video.md        | Done   | Recording |
+| Record Ownership function example Video.md      | Done   | Recording |
+| Record Outro Speal Video.md                     | Done   | Recording |
+| Record Intro Control Flow Script                | Done   | Recording |
+| Make animation for different sized integer bits | Done   | Animation |
+| Fix Script Template File                        | Done   | Script    |
+| Finish writing mutability script                | Done   | Script    |
+| Animate Transfering ownership of data           | Done   | Animation |
+| Animate scope variable loss                     | Done   | Animation |
+| Animate losing ownership of variable            | Done   | Animation |
+| Animate borrowing video                         | Done   | Animation |
 
 
 # Final Draft
@@ -64,9 +64,6 @@ One of my goals with Rust is to build a website with it. To do so, I investigate
 .
 
 
-Thank ye for watching! There is a discord link below as well as a Twitter.  If you wish to examine either notes or scripts, the Obsidian publish is attached too! You can see scripts and plans for the next video there.  My GitHub is linked below too. Looking forward to seeing ye next week!
-
-
 Programming can be used to build systems to respond automatically to situations. However, different scenarios require different responses. Control flow is how we match the response to the scenario. We have different methods of control flow depending on the structure of the event. The methods of control flow we will be exploring are if, else if, loops, while and for loops. I found it surprising that Rust has ways or returning values from control flow methods such as loop. I have not seen that in other languages. We will begin with if statements.
 
 These are used when we wish to apply an operation if a condition is satisfied. Let's take a string. We take alternative actions for different types of words. For instance, if our string here is a name. We capatilize the initial letter of names. So if str is a name, str = CapatiliseInitial(str). Other situations also have capitalisation. For instance if we had a capital city. Rather than repeating if statements, we can use an else if statement. This way any time the situation is satisfied we stop after taking that action. If statement scan also be used to assign values to variables. It has the following syntax: let variable = condition {} else {}. It is restricted by the fact the outputs in each case need to be the same type. I have seen this used in a video on building a website with Rust.
@@ -78,14 +75,20 @@ The while loop is also used for indefinite processes. There are certain features
 The last method of control flow that I will be talking about is [[For(Rust)|for loops]]. These occur when we take a repeated action for a known amount of iterations. . An example is capitalising every letter in a string. The number of times we capitalise a letter is the number of letters in the string. This will have a fixed length and we can repeat the same function on each letter as we progress.
 
 
+Let's examine a new data type called const. It is an immutable data type that has certain restrictions. We declare it using upper case letters. We still have underscores between words. We cannot use data that is built during the runtime of our program to create them. The data must be constant data.  We can still use expressions on the constant data to create these variables. The list of constrains are listed in Chapter 17 of the Rust book.  Const is used for global variables, variables we can access in any scope. It is recommended to store your global variables in one place by the Rust book. I remember hearing issues about Toyota's cars having too many global variables.  They had over 10,000 global variables stored in the software and people couldn't figure out what was causing issues. I read a couple of places on the internet and the recommended maximum number of global variables was 10. . We will now talk about different methods variables can appear from instead of being created.
+
+Rust has a technique called shadowing. It allows you to reuse a variable name inside a scope without reassigning that variable name outside of that scope. This feels like a method to avoid issues with having too many names for different versions of the same data with modifications applied to it. I also wonder does this prevent some kinds of computing problems where people tend to mutate data in multiple different scenarios. If people are altering data with multiple functions, keeping track of the form of data you have could be an issue. It is better to assume that the data is always of one particular form perhaps? To use shadowing, we say let variable name = expression in a scope. Then we can use that name in an alternative context. My first time seeing this felt odd to me, why is this useful? To build intuition and understanding about this, I decided to google how people use this technique in practice. I found out that people use shadowing when dealing with sanitising data they receive from the internet. They still wish to retain the old data but using it could be dangerous. Rather than coming up with new names, they just shadow the old data with the sanitised new data. This prevents using multiple names for the same data. A downside could be that we have not distinguished what stage of processing the data is at from the name. Something I found interesting is that there is no restriction on data type when using shadow. If my original data type is an integer, I could shadow it with a boolean without issue. I thought there may be some restriction but it seems not. This may change later. In summary I believe the purpose of shadowing it to allow for scope related actions where we want to keep the original data.
+
+
 Lets use examples to show some ownership rules. We will enclose the owner of a variable in a yellow box to highlight where ownership is. To start we will have a function that takes a number and then prints it out. We will name that function drop_variable. For now we are going to assign a variable a name. We assign 5 to x. So the ownership of this 5 is x. Then we fill our variable into our function. Note that the ownership of 5 now goes into the function. This prevents there being two owners of a variable. Now we apply the process of drop variable. At the end of the function, the ownership goes out of scope. Now we cannot access it even inside the main function.
 
 Lets now see how to transfer ownership of a variable with functions. The function we will use is called lose and take. We will use it to show how to transfer ownership. We start off with assigning 5 to x again. Here x is now the owner of that variable. Then we pass it into our function so it travels to within the function scope. When it passes to return x, we are transferring the value back out of the scope. This means our 5 from the start is now assigned to s instead of x at the end of this function.
 
 
-Let's examine a new data type called const. It is an immutable data type that has certain restrictions. We declare it using upper case letters. We still have underscores between words. We cannot use data that is built during the runtime of our program to create them. The data must be constant data.  We can still use expressions on the constant data to create these variables. The list of constrains are listed in Chapter 17 of the Rust book.  Const is used for global variables, variables we can access in any scope. It is recommended to store your global variables in one place by the Rust book. I remember hearing issues about Toyota's cars having too many global variables.  They had over 10,000 global variables stored in the software and people couldn't figure out what was causing issues. I read a couple of places on the internet and the recommended maximum number of global variables was 10. . We will now talk about different methods variables can appear from instead of being created.
+Thank ye for watching! There is a discord link below as well as a Twitter.  If you wish to examine either notes or scripts, the Obsidian publish is attached too! You can see scripts and plans for the next video there.  My GitHub is linked below too. Looking forward to seeing ye next week!
 
-Rust has a technique called shadowing. It allows you to reuse a variable name inside a scope without reassigning that variable name outside of that scope. This feels like a method to avoid issues with having too many names for different versions of the same data with modifications applied to it. I also wonder does this prevent some kinds of computing problems where people tend to mutate data in multiple different scenarios. If people are altering data with multiple functions, keeping track of the form of data you have could be an issue. It is better to assume that the data is always of one particular form perhaps? To use shadowing, we say let variable name = expression in a scope. Then we can use that name in an alternative context. My first time seeing this felt odd to me, why is this useful? To build intuition and understanding about this, I decided to google how people use this technique in practice. I found out that people use shadowing when dealing with sanitising data they receive from the internet. They still wish to retain the old data but using it could be dangerous. Rather than coming up with new names, they just shadow the old data with the sanitised new data. This prevents using multiple names for the same data. A downside could be that we have not distinguished what stage of processing the data is at from the name. Something I found interesting is that there is no restriction on data type when using shadow. If my original data type is an integer, I could shadow it with a boolean without issue. I thought there may be some restriction but it seems not. This may change later. In summary I believe the purpose of shadowing it to allow for scope related actions where we want to keep the original data.
+
+Hi All! Welcome to this channel. We have a discord if you would like to join us. There is also a website built using obsidian publish that will have all the scripts, including the rough drafts. Notes made during the week will also be put online on this website. You can also vote for new projects when we have finished going through the book! In the meantime, there will be weekly YouTube videos so you are more than welcome to stick around here for a while. All the code made in Rust and obsidian will be available on GitHub too.
 
 
 We want to use our variables without changing them. So we need a process to use our variables in our function without losing ownership. Borrowing is a technique to solve this. This refers to passing the reference of a variable into the function. I will use yellow boxes to show ownership and blue boxes for references. Let's show this through an example.
@@ -102,29 +105,25 @@ An important part of programming is how we store data. The method of storing dat
 Rust has a new method of memory allocation to prevent issues that commonly occur from arising. The concept is called Ownership Rules. There rules are. Each value in Rust has an _owner_. There can only be one owner at a time. When the owner goes out of scope, the value will be dropped. This is going to have a significant impact on how we conduct our memory management, especially with functions. We'll start with copying data. There are two ways of copying data in Rust, shallow versus deep copies. A shallow copy is where we create a second reference to the same piece of data. A deep copy is when you make an exact copy of the data. Let's talk about this with a homework example. Suppose we have two people, Aoife and Tadgh, where Aoife has done the homework. We say Tadgh has a shallow copy of the homework if he just borrows it whenever he needs it. They pass it back and forth as required. We say that he has made a deep copy if he transcribes it. This highlights some issues with shallow copies. Suppose Tadgh borrows the homework and then writes on it. If Aoife tries to use it, she'll find her notes changed in potentially unexpected ways. How Rust deals with this issue, is that if you try to relabel the data, it moves its ownership over. In this case, if Aoife passed the homework to Tadgh, Tadgh is now the owner of it.
 
 Rust by default tends to shallow copies for performance, rewriting the homework is far more time consuming than simply passing it over. One exception to this is with integers. Integers are deep copied. Then how does this interact with the rules of ownership in Rust? With our example of the homework, if Aoife passes the homework to Tadgh, that homework is now Tadgh's. Whenever ownership could be shared, the last variable to own it is the permanent owner. We can create deep copies of data such as with strings we can use clone to do so. Let's look at functions. When passing our data as is into the function, we can be transferring ownership. Let's look at an example here. Go through the video and try to talk over the animation.
-
-
-Hi All! Welcome to this channel. We have a discord if you would like to join us. There is also a website built using obsidian publish that will have all the scripts, including the rough drafts. Notes made during the week will also be put online on this website. You can also vote for new projects when we have finished going through the book! In the meantime, there will be weekly YouTube videos so you are more than welcome to stick around here for a while. All the code made in Rust and obsidian will be available on GitHub too.
 ```mermaid
 graph TB
 	Compounding_data_types(Compounding data types)
 	Function_Structure(Function Structure)
-	Outro_Speal(Outro Speal)
 	Intro_Control_Flow_script(Intro Control Flow script)
-	Ownership_function_example(Ownership function example)
 	Mutability_of_Variables(Mutability of Variables)
+	Ownership_function_example(Ownership function example)
+	Outro_Speal(Outro Speal)
+	Weekly_Speal(Weekly Speal)
 	References_and_borrowing(References and borrowing)
 	Rules_of_ownership_in_Rust(Rules of ownership in Rust)
-	Weekly_Speal(Weekly Speal)
-
 	Compounding_data_types --> Function_Structure
-	Function_Structure --> Outro_Speal
-	Outro_Speal --> Intro_Control_Flow_script
-	Intro_Control_Flow_script --> Ownership_function_example
-	Ownership_function_example --> Mutability_of_Variables
-	Mutability_of_Variables --> References_and_borrowing
+	Function_Structure --> Intro_Control_Flow_script
+	Intro_Control_Flow_script --> Mutability_of_Variables
+	Mutability_of_Variables --> Ownership_function_example
+	Ownership_function_example --> Outro_Speal
+	Outro_Speal --> Weekly_Speal
+	Weekly_Speal --> References_and_borrowing
 	References_and_borrowing --> Rules_of_ownership_in_Rust
-	Rules_of_ownership_in_Rust --> Weekly_Speal
 ```
 
 # This weeks Thoughts

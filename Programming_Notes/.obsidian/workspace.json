@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "afda9b0e993fd005",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "617d044eac1a50f4",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Welcome"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Welcome.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of Welcome"
             }
           }
         ],
@@ -167,45 +167,45 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "617d044eac1a50f4",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Welcome.md",
-    "test Table of Contents.md",
-    "Rust Scripts/Week 3/Week 3 Rust.md",
-    "Rust Scripts/Week 3/Week 3 Rust Publish.md",
-    "Home.md",
-    "Untitled.md",
-    "Obsidian Scripts/Week 1/Week 1 Obsidian Reflections.md",
-    "Obsidian Scripts/Week 1/Week 1 Obsidian Thoughts.md",
-    "Obsidian Scripts/Week 1/Week 1 Obsidian Publish.md",
-    "Obsidian Scripts/Week 1/Week 1 Obsidian.md",
-    "Obsidian Scripts/Week 1",
-    "Obsidian Scripts",
-    "Background/Trash/Untitleddd4.md",
-    "Background/Trash/Untitleddd3.md",
-    "Rust Scripts/Week 3/Week 3 Rust Reflections.md",
-    "Background/Trash/Untitleddd2.md",
     "Background/Trash/Untitleddd1.md",
-    "Rust Scripts/Week 3/Week 3 Rust Thoughts.md",
-    "Background/Templates/PublishPrepTemplate.md",
-    "Background/JS/Dataview Queries/finishedTasksDataviewQuery.js",
-    "Background/JS/Publish Prep/finishedTaskList.js",
-    "Obsidian Scripts/Week 1/Tasks/NotFinished/Create Animations for testtt.md",
-    "Background/JS/Mermaid Graph/createMermaidGraphs.js",
-    "Obsidian Scripts/Week 1/Tasks/NotFinished/Edit testtt Video.md",
-    "Obsidian Scripts/Week 1/Tasks/NotFinished/Create sketchs for testtt.md",
-    "Obsidian Scripts/Week 1/Tasks/NotFinished/Record testtt Video.md.md",
-    "Background/JS/Mermaid Graph",
     "Background/Trash/Untitleddd.md",
-    "Class/Task Management.md",
-    "Rust Scripts/Week 3/Task Management/Task Management for abfbaf.md",
-    "Rust Scripts/Week 3/Tasks/NotFinished/Create sketchs for abfbaf.md",
-    "Background/JS/Publish Prep/publishPrep.js",
-    "Background/JS/Publish Prep",
-    "Background/Templates/New_Week_Template.md",
-    "Rust Scripts/Week 3/Task Management",
-    "Rust Scripts/Week 3/Tasks/NotFinished",
+    "Home.md",
+    "Welcome.md",
+    "Rust Scripts/Week 3/Week 3 Rust Thoughts.md",
+    "Rust Scripts/Week 3/Week 3 Rust.md",
+    "Rust Scripts/Week 2/Week 2 Rust Thoughts.md",
+    "Rust Scripts/Week 2/Week 2 Rust.md",
+    "Rust Scripts/Week 2/Week 2 Rust Publish.md",
+    "Rust Scripts/Week 3/Week 3 Rust Publish.md",
+    "Rust Scripts/Week 3/Week 3 Rust Reflections.md",
     "Rust Scripts/Week 2/Week 2 Rust.canvas",
+    "Obsidian Scripts/Week 1/Week 1 Obsidian Publish.md",
+    "Obsidian Scripts/Week 1/Week 1 Obsidian Thoughts.md",
+    "Obsidian Scripts/Week 1/Week 1 Obsidian Reflections.md",
+    "test Table of Contents.md",
+    "Background/Templates/PublishPrepTemplate.md",
+    "Obsidian Scripts/Week 1/Week 1 Obsidian.md",
+    "Background/Trash/Untitleddd14.md",
+    "Background/Trash/Untitleddd13.md",
+    "Background/Trash/Untitleddd12.md",
+    "Background/Trash/Untitleddd11.md",
+    "Background/JS/Thought Files/extractThoughtsText.js",
+    "Background/JS/Thought Files/finishDraftThoughts.js",
+    "Background/JS/Thought Files/convertThoughtsDraft.js",
+    "Background/JS/Thought Files/convertFirstDraftThoughs.js",
+    "Background/JS/Thought Files",
+    "Background/Trash/Untitleddd10.md",
+    "Background/Trash/Untitleddd9.md",
+    "Background/Trash/Untitleddd8.md",
+    "Background/Trash/Untitleddd7.md",
+    "Background/Trash/Untitleddd6.md",
+    "Background/JS/Welcome Files/updateWelcomeFiles.js",
+    "Background/JS/createDraftAndMermaid.js",
+    "Background/JS/Welcome Files/checkIfWeekShouldUpdate.js",
+    "Background/JS/Path Functions/File Paths/publishPath.js",
+    "Background/JS/Path Functions/File Paths/overviewPath.js",
     "Rust Scripts/Week 1/Week 1 Rust.canvas"
   ]
 }

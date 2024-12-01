@@ -5,5 +5,8 @@ language: Rust
 complete: false
 finalised: false
 ---
-# Goals
+# Script Goals
 
+- Make a video in two weeks.
+- Have an organised task management system.
+- Test.

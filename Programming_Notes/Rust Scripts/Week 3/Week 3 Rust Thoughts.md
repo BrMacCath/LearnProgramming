@@ -1,11 +1,12 @@
 ---
 fileClass: Notes
 weekNum: 3
-complete: 
 language: Rust
+complete: false
+finalised: false
 DraftNum: 1
 ---
 # First Draft
+## Reflections
 
-## Animation
-Lets see if this works.
+Definitely need to reflect on mistakes.
