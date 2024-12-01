@@ -1,12 +1,19 @@
-async function my_function(dv, tp, language, taskChoices, text) {
+async function my_function(dv, tp, language, taskChoices, i) {
+  let text = await tp.file.include(
+    `[[${tp.user.overviewPath(tp, language, i)}]]`
+  );
   let tasksAvailable = false;
+  const folder = tp.user.taskFolderPath(tp, language, i);
+
   await Promise.all(
     taskChoices.map(async (Choice) => {
-      const queryChoice = `TABLE WITHOUT ID
-        file.link As ${Choice} Task, file.frontmatter.taskStatus As Status, file.frontmatter.due_date As Due-Date
-        FROM "${folder}"
-        WHERE file.frontmatter.taskStatus != "Done" AND file.frontmatter.taskType = "${Choice}"
-        SORT file.link DESC`;
+      const queryChoice = `
+TABLE WITHOUT ID
+file.link As "${Choice} Task", file.frontmatter.taskStatus As Status, file.frontmatter.due_date As "Due Date"
+FROM "${folder}"
+WHERE file.frontmatter.taskStatus != "Done" AND file.frontmatter.taskType = "${Choice}"
+SORT file.link DESC
+`;
 
       const queryOutput = await dv.queryMarkdown(queryChoice);
       const count = (queryOutput.value.match(/\n/g) || []).length;
@@ -28,7 +35,7 @@ async function my_function(dv, tp, language, taskChoices, text) {
       (truth) => `${truth}`,
       trueFalse,
       true,
-      "Is this week finalised?"
+      `Is week ${i} for ${language} finalised?`
     );
     if (finalisedWeek) {
       queryLink = "name";
