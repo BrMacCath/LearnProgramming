@@ -1,0 +1,1 @@
+From a Dr K video. Suppose we are in a s situation where a group of people are all in the same situation but some are doing well whereas others are doing poorly. Positive deviance is the strategies that people who are doing well are employing that the people who are doing poorly are not. Figure out how to do citations.

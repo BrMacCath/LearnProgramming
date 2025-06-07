@@ -8,7 +8,7 @@ async function my_function(dv, tp, script, weekNum, dueDate, language) {
   scriptData += `save: false\n`;
   scriptData += "taskStatus: Not Started\n";
   scriptData += `weekNum: ${weekNum}\n`;
-  scriptData += `taskType: Animation\n`;
+  scriptData += `taskType: Sketch\n`;
   scriptData += `script: ${script}\n`;
   scriptData += `due_date: ${dueDate}\n`;
   scriptData += `---\n`;

@@ -32,5 +32,12 @@ async function my_function(dv, tp, script, paragraphSeparator, text) {
   const tFile = tp.file.find_tfile(script.file.name);
 
   await app.vault.modify(tFile, text);
+  await tp.user.updateTaskManagementFiles(
+    dv,
+    tp,
+    script.language,
+    script.weekNum,
+    app.vault
+  );
 }
 module.exports = my_function;

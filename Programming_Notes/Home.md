@@ -3,6 +3,47 @@ cssclasses:
   - dashboard
 rust_num: 2
 ---
+w**
+:sw
+current schedule vs ideal schedule
+- add something that makes you fee;\l alive.
+- trim time for bad tasks
+Identify what needs to change
+Implement changes
+Practice gratitude.tj
+
+:s
+# testtt
+
+## sdgsg
+
+<!-- Table of Contents default-->
+# Table of Contents
+1. [[Home# testtt|testtt]]
+	1. [[Home## sdgsg|sdgsg]]
+2. [[Home# Things to fix|Things to fix]]
+	1. [[Home## When does this work|When does this work]]
+	2. [[Home## Test the update|Test the update]]
+	3. [[Home## Aeatyumryu|Aeatyumryu]]
+3. [[Home# Rust YouTube|Rust YouTube]]
+4. [[Home# Recent Changes in Notes|Recent Changes in Notes]]
+
+<!-- End of TOC -->
+
+# Things to fix
+
+Make a citation command that could work in obsidian and latex. Something like this^[test tjos os si] 
+## When does this work
+## Test the update
+
+## Aeatyumryu
+
+ry
+
+
+Test^[This] does it repeat^[This]
+Active leaf change
+Okay
 # Rust YouTube
 
 ```dataviewjs
@@ -29,7 +70,6 @@ await Promise.all(dv.pages('"Rust Scripts"').where(p =>(p.fileClass == "Task" &&
 
 ```
 
-
 # Recent Changes in Notes
 ```dataview
 TABLE WITHOUT ID
@@ -48,11 +88,10 @@ SORT file.mtime desc
 LIMIT 5
 ```
 
-# Last few projects in Rust
-```dataview
-TABLE WITHOUT ID
-file.link AS Note, dateformat(file.mtime, "ff") AS Modified
-FROM "Rust/Projects"
-SORT file.mtime desc
-LIMIT 5
-```
+<%*
+await app.vault.create("test.tex","Test")
+-%>
+This[^1] With[^1]
+
+
+[^1]: This is a check

@@ -13,10 +13,10 @@ fields:
     options: {}
     path: ""
     id: bbhyzG
-version: "2.1"
+version: "2.2"
 limit: 20
 mapWithTag: false
-icon: package
+icon: panels-top-left
 tagNames: 
 filesPaths: 
 bookmarksGroups: 

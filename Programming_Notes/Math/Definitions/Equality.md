@@ -1,0 +1,1 @@
+Used in many situations such as [[Sigma Notation]],[[Pattern Matching]] and [[Contraction]].

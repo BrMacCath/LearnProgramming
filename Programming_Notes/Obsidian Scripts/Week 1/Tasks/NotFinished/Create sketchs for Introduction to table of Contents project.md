@@ -3,7 +3,7 @@ fileClass: Task
 save: false
 taskStatus: Not Started
 weekNum: 1
-taskType: Animation
+taskType: Sketch
 script: Introduction to table of Contents project
 due_date: 12-02-2024
 ---

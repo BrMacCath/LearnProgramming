@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Home"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 474.5
+    "width": 241.5
   },
   "right": {
     "id": "68eecc57d4202668",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scripts/Week_1 Rust/Scripts/Guessing game Interpretation(Rust).md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Guessing game Interpretation(Rust)"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -112,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scripts/Week_1 Rust/Scripts/Guessing game Interpretation(Rust).md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Guessing game Interpretation(Rust)"
+              "title": "Outgoing links from Home"
             }
           },
           {
@@ -161,51 +162,52 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
       "templater-obsidian:Templater": false,
       "soundscapes:Soundscapes: My Music": false,
-      "publish:Publish changes...": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
+    "Background/Trash/Untitleddd5.md",
+    "Background/Trash/Untitleddd3.md",
+    "Background/Trash/Untitleddd2.md",
+    "Books/Learning/On Writing Well/On Writing Well.md",
+    "Books/Learning/Procrastination/Procrastination (Book).md",
+    "Books/Learning/Make it stick/Make it stick.md",
+    "Books/Learning/On Writing Well",
+    "Excalidraw/Drawing 2025-06-01 10.59.16.excalidraw.md",
     "Background/Trash/Untitleddd1.md",
     "Background/Trash/Untitleddd.md",
-    "Home.md",
+    "Excalidraw/Test",
+    "Untitled 1.md",
+    "Excalidraw",
     "Welcome.md",
-    "Rust Scripts/Week 3/Week 3 Rust Thoughts.md",
-    "Rust Scripts/Week 3/Week 3 Rust.md",
-    "Rust Scripts/Week 2/Week 2 Rust Thoughts.md",
-    "Rust Scripts/Week 2/Week 2 Rust.md",
-    "Rust Scripts/Week 2/Week 2 Rust Publish.md",
-    "Rust Scripts/Week 3/Week 3 Rust Publish.md",
-    "Rust Scripts/Week 3/Week 3 Rust Reflections.md",
+    "Math Flashcard Checklist.md",
+    "Post study Checklist.md",
+    "Pre Study Checklist.md",
+    "Untitled.md",
+    "Books/Learning/Provrastination/Untitled",
+    "Books/Learning/Procrastination",
+    "Books/Learning/Make it stick",
+    "Math/Math Plan.md",
+    "Books/Math/Wavelet Book.md",
+    "Background/Choices/C++Choices.md",
+    "Background/Choices/Book Context.md",
+    "Books/Philosophy/Tao Te Ching.md",
+    "Books/Math",
+    "Math/Wavelets",
+    "Math/Notation/Sigma Notation.md",
+    "Math/Techniques/Pattern Matching.md",
+    "Math/Techniques/Contraction.md",
+    "Math/Techniques/Backwards-Forwards.md",
+    "Math/Definitions/Equality.md",
+    "Math/Notation",
+    "Math/Definitions",
     "Rust Scripts/Week 2/Week 2 Rust.canvas",
-    "Obsidian Scripts/Week 1/Week 1 Obsidian Publish.md",
-    "Obsidian Scripts/Week 1/Week 1 Obsidian Thoughts.md",
-    "Obsidian Scripts/Week 1/Week 1 Obsidian Reflections.md",
-    "test Table of Contents.md",
-    "Background/Templates/PublishPrepTemplate.md",
-    "Obsidian Scripts/Week 1/Week 1 Obsidian.md",
-    "Background/Trash/Untitleddd14.md",
-    "Background/Trash/Untitleddd13.md",
-    "Background/Trash/Untitleddd12.md",
-    "Background/Trash/Untitleddd11.md",
-    "Background/JS/Thought Files/extractThoughtsText.js",
-    "Background/JS/Thought Files/finishDraftThoughts.js",
-    "Background/JS/Thought Files/convertThoughtsDraft.js",
-    "Background/JS/Thought Files/convertFirstDraftThoughs.js",
-    "Background/JS/Thought Files",
-    "Background/Trash/Untitleddd10.md",
-    "Background/Trash/Untitleddd9.md",
-    "Background/Trash/Untitleddd8.md",
-    "Background/Trash/Untitleddd7.md",
-    "Background/Trash/Untitleddd6.md",
-    "Background/JS/Welcome Files/updateWelcomeFiles.js",
-    "Background/JS/createDraftAndMermaid.js",
-    "Background/JS/Welcome Files/checkIfWeekShouldUpdate.js",
-    "Background/JS/Path Functions/File Paths/publishPath.js",
-    "Background/JS/Path Functions/File Paths/overviewPath.js",
     "Rust Scripts/Week 1/Week 1 Rust.canvas"
   ]
 }

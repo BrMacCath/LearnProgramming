@@ -1,7 +1,7 @@
 ---
 limit: 20
 mapWithTag: false
-icon: wrench
+icon: vault
 tagNames: 
 filesPaths: 
 bookmarksGroups: 
@@ -11,7 +11,7 @@ savedViews: []
 favoriteView: 
 fieldsOrder:
   - J9wDjt
-version: "2.6"
+version: "2.7"
 fields:
   - name: Purpose
     type: Select

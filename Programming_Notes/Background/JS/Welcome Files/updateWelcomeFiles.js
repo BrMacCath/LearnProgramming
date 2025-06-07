@@ -10,6 +10,7 @@ async function my_function(dv, tp, allLangs) {
     // Now we also need to add the current thoughts
     const scriptName = `${tp.user.thoughtsPath(tp, language, weekNum)}.md`;
     const thought_script = await dv.page(scriptName);
+
     if (thought_script.complete) {
       const temp_thought_text_location = `${tp.user.thoughtsPath(
         tp,

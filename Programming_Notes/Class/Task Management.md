@@ -23,7 +23,22 @@ fields:
       valuesListNotePath: Background/Choices/ProgrammingChoices.md
     path: ""
     id: HJA1te
-version: "2.4"
+  - name: numTasks
+    type: Number
+    options:
+      step: 1
+      min: 0
+    path: ""
+    id: z0Xy51
+  - name: taskStatus
+    type: Select
+    options:
+      sourceType: ValuesListNotePath
+      valuesList: {}
+      valuesListNotePath: Background/Choices/TaskStatusChoices.md
+    path: ""
+    id: vlXMlZ
+version: "2.7"
 limit: 20
 mapWithTag: false
 icon: notebook-pen
@@ -35,6 +50,8 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - vlXMlZ
+  - z0Xy51
   - HJA1te
   - 4BJlAC
   - EtLsP8

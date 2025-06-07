@@ -1,7 +1,7 @@
 ---
 fileClass: Task
 save: false
-taskStatus: Not Started
+taskStatus: Making Progress
 weekNum: 1
 script: Introduction to table of Contents project
 taskType: Script

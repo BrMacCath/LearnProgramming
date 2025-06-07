@@ -1,2 +1,3 @@
 Obsidian
 Rust
+JavaScript

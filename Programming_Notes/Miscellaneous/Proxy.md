@@ -1,0 +1,1 @@
+Proxies are used when we wish to measure progress of an attribute or understanding but doing so directly can be difficult. As such they put a stand in to measure progress. This stand in can be good or bad but an issue that I have experienced recently is that people tend to try do well with the proxy instead what the proxy is supposed to measure.

@@ -5,7 +5,6 @@ async function my_function(dv, tp, language, i) {
   const query = `TABLE WITHOUT ID
   file.link AS Note
   FROM "${folder}"`;
-
   const queryOutput = await dv.queryMarkdown(query);
 
   let tempStr = queryOutput.value.replace("\n|", "");

@@ -13,7 +13,6 @@ finalised: false
 
 | Animation Task                                                                                                                                          | Status      | Due Date   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
-| [[Rust Scripts/Week 3/Tasks/NotFinished/Create sketchs for Introduction to Slice operator.md\|Create sketchs for Introduction to Slice operator]]       | Not Started | 19-02-2024 |
 | [[Rust Scripts/Week 3/Tasks/NotFinished/Create Animations for Introduction to Slice operator.md\|Create Animations for Introduction to Slice operator]] | Not Started | 19-02-2024 |
 
 
@@ -32,6 +31,11 @@ finalised: false
 | [[Rust Scripts/Week 3/Tasks/NotFinished/Write script for Introduction to Slice operator.md\|Write script for Introduction to Slice operator]] | Not Started | 19-02-2024 |
 
 
+| Sketch Task                                                                                                                                       | Status      | Due Date   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------- |
+| [[Rust Scripts/Week 3/Tasks/NotFinished/Create sketchs for Introduction to Slice operator.md\|Create sketchs for Introduction to Slice operator]] | Not Started | 19-02-2024 |
+
+
 | Finished-Task | Status | Task-Type |
 | ------------- | ------ | --------- |
 
@@ -39,6 +43,11 @@ finalised: false
 # Final Draft
 
 The script: [[Introduction to Slice operator(Rust)]] is incomplete.
+
+
+## Sources
+
+
 ```mermaid
 graph TB
 	Introduction_to_Slice_operator(Introduction to Slice operator)
@@ -47,5 +56,11 @@ graph TB
 # Current Thoughts
 
 ## Reflections
+Topic: Reflecting about the process so far.
+- Focused on external parts of this process. 
+- Need to examine internally.
+- Need to examine the methods of internal examination.
+- 
 
-Definitely need to reflect on mistakes.
+I started this process by examining people's strategies to make scripts,videos etc. A major component of this website was reflection but I did not put the same energy into reflections. In going forward, I am going to have a section about reflections and examine not just how to reflect but also try to examine what is useful in those reflections. Meta reflections!
+

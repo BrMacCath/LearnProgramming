@@ -3,7 +3,7 @@ fileClass: Task
 save: false
 taskStatus: Not Started
 weekNum: 3
-taskType: Animation
+taskType: Sketch
 script: Introduction to Slice operator
 due_date: 19-02-2024
 ---

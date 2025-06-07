@@ -1,19 +1,25 @@
 async function my_function(dv, tp, script, weekNum, dueDate, language) {
+  console.log("Start" + language);
+  console.log("num" + weekNum);
   const query = tp.user.taskManagementDataviewQuery(
     tp,
     script,
     weekNum,
     language
   );
+  console.log(weekNum);
   const markdown = await dv.queryMarkdown(query);
-  const scriptLocation = `${tp.user.baseFolder(
+  console.log(weekNum);
+  const scriptLocation = `${tp.user.taskManagementFolderPath(
+    tp,
     language,
     weekNum
-  )}/Task Management/Task Management for ${script}`;
+  )}/Task Management for ${script}`;
   let scriptData = `---\n`;
   scriptData += `fileClass: Task Management\n`;
   scriptData += `save: false\n`;
   scriptData += `language: ${language}\n`;
+  scriptData += `taskNum: 0\n`;
   scriptData += "taskStatus: Not Started\n";
   scriptData += `weekNum: ${weekNum}\n`;
   scriptData += `script: ${script}\n`;

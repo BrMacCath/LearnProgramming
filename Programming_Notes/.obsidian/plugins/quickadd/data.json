@@ -85,34 +85,6 @@
       "setFileExistsBehavior": true
     },
     {
-      "id": "e3facd95-fd32-4199-8cac-f8809a09d7e8",
-      "name": "Update Weeks",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Background/Templates/UpdateWeek.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": false,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
-    },
-    {
       "id": "d649e27e-2dcc-4a6c-9c15-622b1669857b",
       "name": "New Draft",
       "type": "Template",
@@ -370,7 +342,7 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "1.11.5",
+  "version": "1.13.3",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {
